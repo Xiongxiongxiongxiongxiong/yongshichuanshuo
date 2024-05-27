@@ -13,6 +13,7 @@ public class Chest : MonoBehaviour,IInteractable
 
    private void Awake()
    {
+      // isDone = true;
        _spriteRenderer = GetComponent<SpriteRenderer>();
    }
 
