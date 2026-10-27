@@ -1,0 +1,39 @@
+Unity 2022.3.20f1c1 Play Mode, 2026-10-20
+
+Slam windup accepts damage=5 uninterrupted=True
+Real AI states=MeleeWindup,Melee,Recover,Patrol,Chase,SlamWindup,Slam player damage=68
+Normal J side=0 damage=10 flash=True bar=0.9
+Normal J side=1 damage=10 flash=True bar=0.9
+Half-health front damage=5
+Guard rear damage=10 direction remains right=True
+Guard ended=True rising front damage=10
+Guard on cooldown=True not repeated=True
+Guarded J side=0 damage=5 flash=True bar=0.45
+Guarded J side=1 damage=10 flash=True bar=0.4
+Slam plus wave total=20 single hit=True
+Ground rock wave damage=12 range<=3=True
+Actual jump feet=3.808393 avoids wave=True
+Slide starts=True
+Slide through wave unharmed=True
+Wave stops at wall=True
+Death collision off=True
+Death final frame=True removed=True wave cleared=True
+
+CaveMossLizard unguarded damage=10
+CaveMistMoth unguarded damage=10
+CaveRockSpitter unguarded damage=10
+Player unguarded damage=10
+Player invulnerability prevents repeat=True
+Front raw30 reduced15 survives with HP=5
+Disabled guard full damage=10
+Rear lethal succeeds=True
+Cave15 loaded bear=1 ordinary=3
+Cave16 runtime bear=1 ordinary=3 grounded=True
+Cave17 runtime bear=1 ordinary=3 grounded=True
+
+
+All three saved scenes: one bear, 100HP, 32 character frames and 8 effect frames, references valid and zero missing scripts.
+Real scene loading through persistent / SceneLoader confirmed for caves15,16,17. Scene15 placement adjusted clear of ladder landing after visual inspection.
+Temporary test arenas/keyboard inputs were not saved; original checkpoint restored.
+No new C# compilation errors. Existing GameUIFont dynamic-font texture warning remains unrelated.
+Standalone builds and full manual traversal were not performed.

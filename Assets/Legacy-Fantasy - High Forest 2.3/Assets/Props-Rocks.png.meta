@@ -2311,6 +2311,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Scene6_MossRock
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d17efb1c084674e8f5e2e4670a377b
+      internalID: -234414487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2425,6 +2446,7 @@ TextureImporter:
       Props-Rocks_97: -751902915
       Props-Rocks_98: -1831178759
       Props-Rocks_99: -1793869807
+      Scene6_MossRock: -234414487
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

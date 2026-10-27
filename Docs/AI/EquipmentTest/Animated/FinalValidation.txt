@@ -1,0 +1,5 @@
+Validated 216 frame/facing combinations (108 x2).
+All mapped weapon sprites match body frames; authored frames use identity rotation.
+B original/new switch retained; no combat timing/damage fields changed.
+Saved bindings=108, visible=84, hidden=24, missing=0, B=True
+Final cold Play/Stop lifecycle recheck passed after authored-frame cleanup fix. Final Console read: zero errors. All scene configuration saved; Play Mode stopped.

@@ -1,0 +1,8 @@
+Scene19: runtime loaded, live player at (2.92, 16.67, 0.00), foreground active
+Scene20: runtime loaded, live player at (2.92, 16.67, 0.00), foreground active
+Scene21: runtime loaded, live player at (2.92, 16.62, 0.00), foreground active
+Scene22: runtime loaded, live player at (2.92, 17.79, 0.00), foreground active
+Scene23: runtime loaded, live player at (2.92, 16.71, 0.00), foreground active
+Scene24: runtime loaded, live player at (2.92, 13.83, 0.00), foreground active
+
+Scope: scene loading, live player spawn and enabled foreground checked for all six scenes. This is not a full manual playthrough of all routes.

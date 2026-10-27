@@ -1,0 +1,61 @@
+Unity 2022.3.20f1c1 Play Mode, 2026-10-20
+
+REAL J/AI TESTS
+Spitter ranged telegraph/attack=True states=Windup,Attack,Recover,Patrol damage=29 spore=True
+Spitter close telegraph/attack=True states=Recover,Patrol,Windup,Attack damage=0 spore=True
+Moth swoop/recover/return telegraph/attack=True states=Windup,Attack,Recover,Return,Patrol damage=16 spore=True
+Lizard pounce/recover telegraph/attack=True states=Windup,Attack,Recover,Patrol,Chase damage=20 spore=False
+MossLizard J from left damage=10 whiteFlash=True barChanged=True
+MossLizard J from right damage=10 whiteFlash=True barChanged=True
+MossLizard lethal disables collider=True
+Death last frame=True destroyed=True
+MistMoth J from left damage=10 whiteFlash=True barChanged=True
+MistMoth J from right damage=10 whiteFlash=True barChanged=True
+MistMoth lethal disables collider=True
+Death last frame=True destroyed=True
+RockSpitter J from left damage=10 whiteFlash=True barChanged=True
+RockSpitter J from right damage=10 whiteFlash=True barChanged=True
+RockSpitter lethal disables collider=True
+Death last frame=True destroyed=True
+
+ISOLATED ABILITY / PLAYER SKILL TESTS
+Lizard windup damage=0
+Pounce damage=10 recovery=True
+Lizard cliff safety=True
+Moth windup damage=0
+Moth swoop damage=8 low recovery=True
+Spore projectile direct damage=12
+Cloud deals once=True total=5
+Cloud expired=True
+Slide starts=True
+Slide crosses cloud unharmed=True
+Projectile slide starts=True
+Slide passes projectile unharmed=True
+Thrust started=True
+Thrust enemy damage=40
+Spin started=True
+Spin enemy damage=32
+Owner death clears cloud=True
+
+PLACEMENT / SCENE LOADING / ACTIVE CLOUD IMMUNITY
+15 MossLizard HP=35 frames=True placement=True prefab=True
+15 MistMoth HP=22 frames=True placement=True prefab=True
+15 RockSpitter HP=30 frames=True placement=True prefab=True
+Scene 15 count=3 missingScripts=0
+16 MossLizard HP=35 frames=True placement=True prefab=True
+16 MistMoth HP=22 frames=True placement=True prefab=True
+16 RockSpitter HP=30 frames=True placement=True prefab=True
+Scene 16 count=3 missingScripts=0
+17 MossLizard HP=35 frames=True placement=True prefab=True
+17 MistMoth HP=22 frames=True placement=True prefab=True
+17 RockSpitter HP=30 frames=True placement=True prefab=True
+Scene 17 count=3 missingScripts=0
+
+Scene16 runtime monsters=3 playerGrounded=True
+Scene17 runtime monsters=3 playerGrounded=True
+Started=True stillSliding=True active cloud damage=0 cloud consumed hit=False
+
+All fixtures were Play Mode only. Original player checkpoint restored.
+No new C# compilation errors. Pre-existing GameUIFont dynamic font texture warning still occurs.
+Full manual traversal and standalone player builds were not performed.
+

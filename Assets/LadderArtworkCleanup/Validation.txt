@@ -1,0 +1,17 @@
+SampleScene_8: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_18: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_9: PASS; 5 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_10: PASS; 5 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_11: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_12: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_13: PASS; 5 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_14: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_15: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_16: PASS; 5 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_17: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 4 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_19: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 1 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_20: PASS; 3 independent ladders unchanged; collision/climbing Tilemaps unchanged; 1 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_21: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 1 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_22: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 1 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_23: PASS; 3 independent ladders unchanged; collision/climbing Tilemaps unchanged; 1 foreground materials repaired; panorama ladder cleanup installed.
+SampleScene_24: PASS; 4 independent ladders unchanged; collision/climbing Tilemaps unchanged; 1 foreground materials repaired; panorama ladder cleanup installed.

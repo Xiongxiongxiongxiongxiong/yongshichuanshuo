@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WalkableQuarter4
+  m_Shader: {fileID: 4800000, guid: 49a229ae458a3f242aa3bcb7c89fbb84, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CleanTex:
+        m_Texture: {fileID: 2800000, guid: 8324f4b815745ff40afd23564e9cddf8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aaaeda2cbe84ef479d485816d510657, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Brightness: 1.06
+    - _EndFeather: 0.85
+    - _RimStrength: 0.18
+    m_Colors:
+    - _CleanUV: {r: 0.25, g: 0.75, b: 0, a: 0}
+    - _Repair0: {r: 0.36376953, g: 0.24597365, b: 0.390625, a: 0.6105417}
+    - _Repair1: {r: 0.64208984, g: 0.34846267, b: 0.6689453, a: 0.61200583}
+    - _Repair2: {r: 0.6665039, g: 0.2532943, b: 0.69091797, a: 0.39970717}
+    - _Repair3: {r: 0.18310547, g: 0.24597365, b: 0.21484375, a: 0.49487555}
+    - _Repair4: {r: 0, g: 0, b: 0, a: 0}
+    - _Repair5: {r: 0, g: 0, b: 0, a: 0}
+    - _Repair6: {r: 0, g: 0, b: 0, a: 0}
+    - _Repair7: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

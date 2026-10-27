@@ -1,0 +1,11 @@
+# Remove duplicate painted ladders across levels
+
+Runtime note: Scene9 loaded with live player and all four repaired foreground materials supported. Scene9_Runtime_Ladder.png confirms the visible ladder is a single functional renderer with no painted duplicate behind it. Runtime Console had only the pre-existing GameUIFont texture warning. Editor returned to Scene8 after testing.
+
+2026-10-22: audited SampleScene_1–25 and BossScene_1–5. Early tilemap scenes contain no duplicate panorama ladders (Scene7's18 functional ladder tiles remain). Boss panoramas have no decorative ladders; town25 was already cleaned. Sixteen separately edited panorama images cover17 affected scenes8–24 because Scene18 shares Scene8 art.
+
+Assets/LadderArtworkCleanup contains the edited Clean.png images, Before.png originals, material backups, per-scene native Unity After.png overview renders, the exact Prompts.md, Manifest.json region data, and Validation.txt.
+
+Original panorama PNG GUIDs/importer settings are retained. Foreground19–24 uses the same cleaned native panorama. Foreground8–18 preserves its detailed quarter textures and all mesh UV/depth/end channels: a dedicated Walkable Foreground Ladder Repair shader samples clean artwork only in narrow explicit ladder rectangles, using the existing brightness/rim/end-feather parameters. This removes painted ladder traces from the higher-density front layer as well as the background. The original shared foreground shader is untouched. All sixteen edits used the built-in image_gen tool.
+
+CleanupPaintedLadders.ApplyAll installs/reapplies the repairs after scene/material reconstruction. It backs up originals and original materials once; reruns preserve those backups. Scene asset files are not written. Every scene file's SHA256 remained identical to the pre-install value. All70 independent climbable ladders across8–24 retained their positions/scales/sizes/sprites, and terrain collider and climbing Tilemap fingerprints were unchanged. All affected scene overviews were visually reviewed. Saved material properties survive reimport, shader is supported, Console check showed no errors/warnings. Representative runtime graphics check uses Scene9. This is visual validation, not a new full traversal test of every route.

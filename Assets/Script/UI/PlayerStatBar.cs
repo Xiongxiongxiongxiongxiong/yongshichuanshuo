@@ -11,6 +11,7 @@ public class PlayerStatBar : MonoBehaviour
     public Image Hp_rad;
 
     public Image Power_yellow;
+    public PlayerStamina stamina;
 
 
 //血量变化方法
@@ -28,6 +29,8 @@ public class PlayerStatBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (stamina != null && Power_yellow != null)
+            Power_yellow.fillAmount = stamina.Current / stamina.maxStamina;
         if (Hp_rad.fillAmount>Hp.fillAmount)
         {
             Hp_rad.fillAmount -= Time.deltaTime;

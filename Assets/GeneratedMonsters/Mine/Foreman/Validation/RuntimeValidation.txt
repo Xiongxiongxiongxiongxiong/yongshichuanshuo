@@ -1,0 +1,10 @@
+SlamWindup damage applied=5 not interrupted=True
+ThrowWindup damage applied=5 not interrupted=True
+AI states=MeleeWindup,Melee,Recover,Patrol,Chase,SlamWindup,Slam,ThrowWindup,Throw triple volley count=3 received player damage=64
+AI states=MeleeWindup,Melee,Recover,Patrol,Chase,SlamWindup,Slam,ThrowWindup,Throw triple volley count=3 received player damage=86
+J from left damage=10 flash=True barChanged=True
+J from right damage=10 flash=True barChanged=True
+Ground wave damage=14
+Actual jump max feet=3.818725 wave avoided=True
+Lethal collider disabled=True effects cleared=True
+Death last frame=True destroyed=True

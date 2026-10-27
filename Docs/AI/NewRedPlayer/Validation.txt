@@ -1,0 +1,3 @@
+climbDownFrames=2 red frames
+weaponUpgradeFrames=8 red frames
+Whirlwind start=True

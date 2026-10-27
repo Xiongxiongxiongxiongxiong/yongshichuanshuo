@@ -1,0 +1,88 @@
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+/// <summary>Temporary B-key appearance test. Original art remains the default equipment.</summary>
+[DefaultExecutionOrder(2000)]
+public sealed class TestWeaponSwap : MonoBehaviour
+{
+    public Texture2D cleanMain, cleanExtra;
+    public Sprite weapon;
+    public Sprite[] originalFrames;
+    public bool temporaryBKey = true;
+    public bool IsNewWeapon { get; private set; }
+    private SpriteRenderer body, equipped;
+    private PlayerController controller;
+    private readonly Dictionary<Sprite, Sprite> clean = new Dictionary<Sprite, Sprite>();
+    private readonly Dictionary<Sprite, Sprite> originals = new Dictionary<Sprite, Sprite>();
+    private static readonly Vector2[] AttackGrips={new Vector2(.22f,.50f),new Vector2(.18f,.65f),new Vector2(.35f,.62f),new Vector2(.58f,.38f),new Vector2(.64f,.36f),new Vector2(.52f,.36f),new Vector2(.40f,.24f),new Vector2(.40f,.30f)};
+    private static readonly float[] AttackAngles={15,30,50,-80,-90,-80,-100,-50};
+
+    private void Awake()
+    {
+        body = GetComponent<SpriteRenderer>(); controller = GetComponent<PlayerController>();
+        var child = new GameObject("Independent Test Sword");child.transform.SetParent(transform,false);
+        equipped = child.AddComponent<SpriteRenderer>();equipped.sprite=weapon;equipped.enabled=false;
+        foreach(var frame in originalFrames)
+        {
+            if(frame==null||clean.ContainsKey(frame))continue;
+            bool extra=frame.name.StartsWith("RedKnightSkill_");
+            var texture=extra?cleanExtra:cleanMain;
+            Vector2 scale=new Vector2((float)texture.width/frame.texture.width,(float)texture.height/frame.texture.height);
+            Rect r=frame.rect;
+            var replacement=Sprite.Create(texture,new Rect(r.x*scale.x,r.y*scale.y,r.width*scale.x,r.height*scale.y),
+                new Vector2(frame.pivot.x/r.width,frame.pivot.y/r.height),frame.pixelsPerUnit*scale.y,0,SpriteMeshType.FullRect);
+            replacement.name=frame.name+"_Weaponless";clean.Add(frame,replacement);originals.Add(replacement,frame);
+        }
+    }
+    private void Update()
+    {
+        if(temporaryBKey&&Keyboard.current!=null&&Keyboard.current.bKey.wasPressedThisFrame&&
+            Time.timeScale>0&&!controller.isDead&&controller.inputcontroller!=null&&controller.inputcontroller.GamePlayer.Move.enabled)
+            SwitchWeapon();
+    }
+    public void SwitchWeapon() { IsNewWeapon=!IsNewWeapon; }
+    private void LateUpdate()
+    {
+        if(body==null||body.sprite==null)return;
+        Sprite original;
+        if(!originals.TryGetValue(body.sprite,out original))original=body.sprite;
+        if(!IsNewWeapon){body.sprite=original;equipped.enabled=false;return;}
+        Sprite replacement;
+        if(!clean.TryGetValue(original,out replacement)){equipped.enabled=false;return;}
+        body.sprite=replacement;
+        bool extra=original.name.StartsWith("RedKnightSkill_");
+        int index; if(!int.TryParse(original.name.Substring(extra?15:10),out index)){equipped.enabled=false;return;}
+        bool hidden=controller.isDead||controller.IsClimbingLadder||(!extra&&index>=42&&index<=53);
+        Vector2 grip=new Vector2(.32f,.29f);float angle=-110;
+        if(!extra&&index>=6&&index<=13)
+        {
+            grip=AttackGrips[index-6];angle=AttackAngles[index-6];
+        }
+        else if(!extra&&index>=14&&index<=21){grip=new Vector2(index%8<4?.56f:.40f,.44f);angle=20;}
+        else if(!extra&&index>=54&&index<=61){grip=new Vector2(.33f,.63f);angle=10;}
+        else if(extra)
+        {
+            if(index>=30)hidden=true;
+            else if(index>=22){grip=new Vector2(index==22?.24f:index==23?.32f:.66f,index<=23?.66f:.34f);angle=index==22?70:index==23?80:-90;}
+            else if(index>=18){grip=new Vector2(.64f,.55f);angle=15;}
+            else if(index>=10){grip=new Vector2(.38f,.22f);angle=-85;}
+            else{grip=new Vector2(.38f,.32f);angle=index>=4?-90:-110;}
+        }
+        Vector2 hand=new Vector2((grip.x*original.rect.width-original.pivot.x)/original.pixelsPerUnit,
+            (grip.y*original.rect.height-original.pivot.y)/original.pixelsPerUnit);
+        float facing=body.flipX?-1:1;
+        equipped.transform.localPosition=new Vector3(hand.x*facing,hand.y,0);
+        equipped.transform.localRotation=Quaternion.Euler(0,0,angle*facing);
+        equipped.transform.localScale=new Vector3(facing,1,1);
+        equipped.sortingLayerID=body.sortingLayerID;equipped.sortingOrder=body.sortingOrder+1;
+        equipped.color=body.color;equipped.sharedMaterial=body.sharedMaterial;
+        equipped.enabled=body.enabled&&!hidden;
+    }
+    private void OnDisable()
+    {
+        if(equipped!=null)equipped.enabled=false;
+        Sprite original;if(body!=null&&body.sprite!=null&&originals.TryGetValue(body.sprite,out original))body.sprite=original;
+    }
+    private void OnDestroy(){foreach(var sprite in clean.Values)if(sprite!=null)Destroy(sprite);}
+}

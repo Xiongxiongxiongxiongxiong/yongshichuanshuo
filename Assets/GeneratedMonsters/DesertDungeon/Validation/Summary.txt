@@ -1,0 +1,42 @@
+Unity 2022.3.20f1c1, 2026-10-26
+
+19 runtime encounters=4 groundedOrFlying=4
+20 runtime encounters=4 groundedOrFlying=4
+21 runtime encounters=4 groundedOrFlying=4
+22 runtime encounters=4 groundedOrFlying=4
+23 runtime encounters=4 groundedOrFlying=4
+24 runtime encounters=4 groundedOrFlying=4
+
+PLAYER SKILLS
+RedtailScorpion U started=True damage=0
+RedtailScorpion I started=True damage=32
+SandJawWorm U started=True damage=40
+SandJawWorm I started=True damage=32
+ThornballCactus U started=True damage=40
+ThornballCactus I started=True damage=32
+RustSkeleton U started=True damage=40
+RustSkeleton I started=True damage=32
+SoulLanternWraith U started=True damage=40
+SoulLanternWraith I started=True damage=32
+ChainAmbushBeast U started=True damage=40
+ChainAmbushBeast I started=True damage=32
+SandPincerGuard U started=True damage=40
+SandPincerGuard I started=True damage=32
+SoulboundJailer U started=True damage=40
+SoulboundJailer I started=True damage=32
+
+SCORPION PHYSICS-SETTLED RETEST
+Settled scorpion U side=0 started=True damage=40
+Settled scorpion U side=1 started=True damage=40
+
+
+The first immediate-teleport scorpion U probe missed; repeating after 0.25s physics settling passed in both directions (40 damage each). No gameplay change was needed for this fixture timing issue.
+
+Saved-scene audit: scenes19,20,21,22,23,24 each contain exactly 4 encounters, correct HP and 24/32 character frame references plus 16 effect frames. Zero missing scripts and zero terrain-embedded body boxes across all 24 placed instances.
+
+AIAndJ.txt records real J input from both sides, white flash, HP bars and final death frames for all eight kinds.
+Abilities.txt records exact isolated ability damage, shared per-cast hit suppression with player invulnerability forcibly cleared, actual jump/slide, safe pull, wall/cliff stops and projectile limits.
+
+All test floors, temporary enemies, injected keys and player HP changes were Play Mode only. Original checkpoint restored. No persistent player/weapon/scene-routing asset changes.
+No new C# compilation errors. Existing dynamic GameUIFont font texture error still occurs. No standalone build or full manual traversal of all six levels was performed.
+

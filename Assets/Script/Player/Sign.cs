@@ -7,33 +7,33 @@ using UnityEngine.InputSystem.DualShock;
 public class Sign : MonoBehaviour
 {
     private player playerInput;
-    public GameObject signSprite;
     private bool canPress;
-    private Animator animater;
-    public Transform palyerTransform;
     private IInteractable targetItem;
     private void Awake()
     {
-        animater = signSprite.GetComponent<Animator>();
-        playerInput = new player();
-        playerInput.Enable();
+        if (playerInput == null) playerInput = new player();
     }
 
 
     private void OnEnable()
     {
-        InputSystem.onActionChange += OnActionChange;
+        if (playerInput == null) playerInput = new player();
+        playerInput.GamePlayer.Enable();
         playerInput.GamePlayer.Confirm.started += Onconfirm;
     }
 
     private void OnDisable()
     {
         canPress = false;
+        targetItem = null;
+        if (playerInput == null) return;
+        playerInput.GamePlayer.Confirm.started -= Onconfirm;
+        playerInput.Disable();
     }
 
     private void Onconfirm(InputAction.CallbackContext obj)
     {
-        if (canPress)
+        if (canPress && targetItem != null)
         {
             targetItem.TriggerAction();
             
@@ -45,42 +45,22 @@ public class Sign : MonoBehaviour
 /// </summary>
 /// <param name="obj"></param>
 /// <param name="actionChange"></param>
-    private void OnActionChange(object obj, InputActionChange actionChange)
-    {
-        if (actionChange == InputActionChange.ActionStarted)
-        {
-           
-            var d = ((InputAction)obj).activeControl.device;
-            switch (d.device)
-            {
-                case Keyboard :
-                    animater.Play("Sign");
-                    break;
-                case  DualShockGamepad:
-                    animater.Play("PS_Sign");
-                    break;
-            }
-        }
-    }
 
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Interactable"))
         {
-            canPress = true;
             targetItem = other.GetComponent<IInteractable>();
+            canPress = targetItem != null;
 
         }
-    }
-
-    private void Update()
-    {
-        signSprite.GetComponent<SpriteRenderer>().enabled = canPress;
-        signSprite.transform.localScale = palyerTransform.localScale;
     }
 
     public void OnTriggerExit2D(Collider2D other)
     {
         canPress = false;
+        targetItem = null;
     }
+
+    private void OnDestroy() { playerInput?.Dispose(); }
 }

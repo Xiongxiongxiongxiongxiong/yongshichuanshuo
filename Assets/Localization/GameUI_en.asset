@@ -1,0 +1,839 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameUI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0049735f624be60479cb19e384ac78b2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3538300928
+    m_Localized: Start Adventure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438272
+    m_Localized: Continue Journey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438273
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438274
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438275
+    m_Localized: Quit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438276
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438277
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438278
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438279
+    m_Localized: Changes apply immediately and are saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438280
+    m_Localized: 'Sound: On'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438281
+    m_Localized: 'Sound: Off'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438282
+    m_Localized: 'Fullscreen: On'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438283
+    m_Localized: 'Fullscreen: Off'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438284
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438285
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438286
+    m_Localized: Sound Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438287
+    m_Localized: "Enter to confirm  \xB7  \u2191\u2193 to select"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438288
+    m_Localized: "Adventurers' Guild \xB7 Choose a destination"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438289
+    m_Localized: Town checkpoint saved. Use the top-right button to return anytime.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438290
+    m_Localized: Inn [E] Rest, heal and save the town checkpoint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438291
+    m_Localized: Adventurers' Guild [E] Open the adventure map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438292
+    m_Localized: "Twilight Riverside \xB7 Explore the streets, riverbank and ramparts"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438293
+    m_Localized: Rested and healed. Town checkpoint saved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438294
+    m_Localized: No stored items yet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438295
+    m_Localized: 'Equipment: Sword and Shield'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438296
+    m_Localized: Weapon upgrades from chests apply directly to your character.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438297
+    m_Localized: View current weapon damage in the character panel.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438298
+    m_Localized: Rest a moment. Your journey awaits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438299
+    m_Localized: Press Esc or the button below to resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438300
+    m_Localized: Slide costs 50 stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438301
+    m_Localized: "Thrust costs 30 stamina \xB7 3s cooldown"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438302
+    m_Localized: "Whirlwind costs 40 stamina \xB7 5s cooldown"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438303
+    m_Localized: "Sword and Shield \xB7 Crimson Cloak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438304
+    m_Localized: Weapon Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438305
+    m_Localized: Health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438306
+    m_Localized: Stamina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438307
+    m_Localized: Ember Knight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438308
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438309
+    m_Localized: Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438310
+    m_Localized: Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438311
+    m_Localized: Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438312
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438313
+    m_Localized: Slide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438314
+    m_Localized: Thrust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438315
+    m_Localized: Whirlwind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438316
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438317
+    m_Localized: Adventure Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438318
+    m_Localized: Return to Town
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438319
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438320
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438321
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438322
+    m_Localized: Twilight Riverside
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438323
+    m_Localized: Twilight Riverside
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438324
+    m_Localized: Adventure Realm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438325
+    m_Localized: Mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438326
+    m_Localized: Shadow Mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438327
+    m_Localized: Crystal Mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438328
+    m_Localized: Abandoned Mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438329
+    m_Localized: Deep Veins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438330
+    m_Localized: Deep Veins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438331
+    m_Localized: Deep Mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438332
+    m_Localized: Emerald Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438333
+    m_Localized: Ancient Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438334
+    m_Localized: Glowing Marsh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438335
+    m_Localized: Misty Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438336
+    m_Localized: Shadow Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438337
+    m_Localized: Moonshadow Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438338
+    m_Localized: Wilderness Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438339
+    m_Localized: Wild Grotto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438340
+    m_Localized: Deep Pool Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438341
+    m_Localized: Mossrock Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438342
+    m_Localized: Glowing Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438343
+    m_Localized: Oasis Trail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438344
+    m_Localized: Wind Canyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438345
+    m_Localized: Lost Sand City
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438346
+    m_Localized: Ironchain Prison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438347
+    m_Localized: Underground Waterworks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438348
+    m_Localized: Shadow Royal Crypt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438349
+    m_Localized: Ironchain Dungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438350
+    m_Localized: Shadow Royal Crypt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438351
+    m_Localized: "Ancient Guardian \xB7 Moss Tusk King"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438352
+    m_Localized: "Fungal Lord \xB7 Sporecrown Elder"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438353
+    m_Localized: "Vein Devourer \xB7 Crystalback"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438354
+    m_Localized: "Deep Pool Lord \xB7 Azure Salamander"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438355
+    m_Localized: "Eclipse Queen \xB7 Moonveil Matriarch"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438356
+    m_Localized: Core Overload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438357
+    m_Localized: Azure Resonance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438358
+    m_Localized: Moonmark Awakening
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438359
+    m_Localized: Enraged Phase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438360
+    m_Localized: Bloom Phase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438361
+    m_Localized: Enraged
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438362
+    m_Localized: Bloom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438363
+    m_Localized: The Deep Pool Lord awakens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438364
+    m_Localized: 'Tail sweep: jump or keep away'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438365
+    m_Localized: 'Rock leap: leave the golden landing zone'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438366
+    m_Localized: 'Tongue thrust: jump or slide to evade'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438367
+    m_Localized: 'Mist breath: climb a ledge or move behind'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438368
+    m_Localized: The salamander is exhausted! Attack now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438369
+    m_Localized: The Azure Salamander has fallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438370
+    m_Localized: The Vein Devourer awakens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438371
+    m_Localized: 'Rock claws: retreat or slide to evade'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438372
+    m_Localized: 'Burrow ambush: leave the marked circle'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438373
+    m_Localized: 'Rock shockwave: jump or climb a ledge'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438374
+    m_Localized: 'Crystal rain: leave the golden landing zones'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438375
+    m_Localized: Its armor is loose! Attack now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438376
+    m_Localized: Crystalback has fallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438377
+    m_Localized: The Moonveil Matriarch awakens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438378
+    m_Localized: 'Wing sweep: retreat, slide or move behind'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438379
+    m_Localized: 'Moonshadow dive: leave the golden landing zone'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438380
+    m_Localized: 'Scale dust: find gaps between projectiles'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438381
+    m_Localized: 'Silk snare: leave the golden circle or climb a ledge'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438382
+    m_Localized: The queen is exhausted! Attack now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438383
+    m_Localized: The Moonveil Matriarch has fallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438384
+    m_Localized: The Ancient Guardian awakens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438385
+    m_Localized: 'Repeated charge: jump or slide to evade'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438386
+    m_Localized: 'Tusk charge: jump or slide to evade'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438387
+    m_Localized: 'Earth stomp: jump over the shockwave'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438388
+    m_Localized: 'Mossrock rain: leave the golden landing zones'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438389
+    m_Localized: Stunned by the wall! Attack now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438390
+    m_Localized: The Ancient Guardian has fallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438391
+    m_Localized: The Fungal Lord awakens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438392
+    m_Localized: 'Root thrust: leave the golden markers'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438393
+    m_Localized: 'Double spores: find gaps between projectiles'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438394
+    m_Localized: 'Spore scatter: jump or slide closer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438395
+    m_Localized: 'Fungal retreat: jump and keep your distance'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438396
+    m_Localized: 'Crown slam: leave the golden landing zone'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438397
+    m_Localized: 'Root sweep: retreat or slide to evade'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438398
+    m_Localized: The crown is lowered! Attack now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438399
+    m_Localized: The Fungal Lord has fallen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438400
+    m_Localized: Challenge Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438401
+    m_Localized: Level Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438402
+    m_Localized: Challenge Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438403
+    m_Localized: Retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438404
+    m_Localized: Try Again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438405
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438406
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438407
+    m_Localized: Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438408
+    m_Localized: Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438409
+    m_Localized: Victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438410
+    m_Localized: Rest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438411
+    m_Localized: Inn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438412
+    m_Localized: Guild
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438413
+    m_Localized: Travel to
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3584438414
+    m_Localized: Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906529783808
+    m_Localized: Amber Mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978112
+    m_Localized: Azure Crystal Vein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978113
+    m_Localized: Abandoned Workshop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978114
+    m_Localized: Amethyst Ruins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978115
+    m_Localized: Riverside Trail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978116
+    m_Localized: Ancient Tree Village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978117
+    m_Localized: Moonlit Ruins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978118
+    m_Localized: Mossbrook Cavern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978119
+    m_Localized: Redrock Canyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978120
+    m_Localized: Frostmist Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978121
+    m_Localized: Deep Mine Tunnels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978122
+    m_Localized: Oasis Trail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978123
+    m_Localized: Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978124
+    m_Localized: Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978125
+    m_Localized: Desert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906533978126
+    m_Localized: Dungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414389334016
+    m_Localized: Ancient Guardian's Domain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414435471360
+    m_Localized: Fungal Lord's Domain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414435471361
+    m_Localized: "Abandoned Mine \xB7 Vein Lair"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414435471362
+    m_Localized: "Deep Pool \xB7 Salamander Lair"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414439665664
+    m_Localized: "Moonlit Silk Cavern \xB7 Queen's Lair"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414439665665
+    m_Localized: Enter Boss Arena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414439665666
+    m_Localized: You have reached the end of the forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414439665667
+    m_Localized: Forest Journey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414439665668
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414439665669
+    m_Localized: Continue Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44414439665670
+    m_Localized: Ember Walker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526787141632
+    m_Localized: BACKPACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473280
+    m_Localized: WAREHOUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473281
+    m_Localized: Warehouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473282
+    m_Localized: Item Details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473283
+    m_Localized: Items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473284
+    m_Localized: Your backpack is empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473285
+    m_Localized: Your warehouse is empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473286
+    m_Localized: No item selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473287
+    m_Localized: Select an item to view its details
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473288
+    m_Localized: 'Quantity: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473289
+    m_Localized: Use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473290
+    m_Localized: Discard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473291
+    m_Localized: "Deposit  \u2192"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473292
+    m_Localized: "\u2190  Withdraw"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473293
+    m_Localized: Warehouse Keeper   [E] Talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473294
+    m_Localized: Warehouse Keeper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473295
+    m_Localized: Your belongings are safe with me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473296
+    m_Localized: Deposit or withdraw them whenever you like.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473297
+    m_Localized: Open Warehouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473298
+    m_Localized: Goodbye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473299
+    m_Localized: Select an item first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473300
+    m_Localized: Item deposited
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473301
+    m_Localized: Item withdrawn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473302
+    m_Localized: Not enough warehouse space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473303
+    m_Localized: Not enough backpack space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473304
+    m_Localized: This item cannot be used
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526837473305
+    m_Localized: Health is full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526841667584
+    m_Localized: Stamina is full
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526841667585
+    m_Localized: 'Used '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526841667586
+    m_Localized: Discarded one item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526841667587
+    m_Localized: Item details are not configured. Your item is preserved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526841667588
+    m_Localized: Save could not be read. Items cannot be changed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141526841667589
+    m_Localized: Item save could not be read. Original save preserved.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

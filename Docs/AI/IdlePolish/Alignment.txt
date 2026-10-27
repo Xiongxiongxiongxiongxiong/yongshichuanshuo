@@ -1,0 +1,6 @@
+0: player planted-feet=(-6.140, 6.000) angel face anchor=12.821
+1: player planted-feet=(-6.140, 6.000) angel face anchor=12.821
+2: player planted-feet=(-6.140, 6.000) angel face anchor=12.821
+3: player planted-feet=(-6.140, 6.000) angel face anchor=12.821
+4: player planted-feet=(-6.140, 6.000) angel face anchor=12.821
+5: player planted-feet=(-6.140, 6.000) angel face anchor=12.821

@@ -1,0 +1,9 @@
+# Painted ladder cleanup
+
+Built-in image_gen edit workflow,2026-10-22. Sixteen native2172x724 panorama edits cover SampleScene_8–24; Scene18 shares Scene8's panorama. Scene25 was already cleaned. Images, source backups, pre-change material copies and native Unity after renders are saved in each SceneN directory. Manifest.json records original source paths and narrow repair regions.
+
+The same prompt was applied separately to each original source panorama:
+
+precise-object-edit. Edit this EXACT panorama. Remove EVERY ladder painted into this image, including all wooden/rope/metal vertical ladders, their rungs, side rails, protruding tops and bottom ends. Reconstruct the rock, masonry, wooden support, vines, darkness, sky or water naturally behind each removed ladder, matching the adjacent texture and existing illumination. Do not remove bridges, vertical architecture/support beams, hanging chains, staircases or fences: only actual ladders. The game engine already draws separate functional ladders; this image must contain ZERO decorative ladder drawings. Preserve exact composition, framing and dimensions2172x724, all existing platform silhouettes and surface heights, rocks, buildings, gaps, bridges, lighting and palette. Everything except ladder pixels should remain as identical as possible. No rearrangement, redesign, extra detail or new objects, no labels or characters. Same crisp pixel art. Exact registration is required for existing collision.
+
+Integration: replace background PNG bytes while preserving their meta/GUID and importer settings. Full-panorama foregrounds19–24 receive the matching cleaned image. High-density quarter foregrounds8–18 retain their detailed original textures and sample cleaned artwork only in the explicit ladder regions through WalkableForegroundLadderRepair.shader. Original brightness/rim/end-feather parameters remain unchanged.

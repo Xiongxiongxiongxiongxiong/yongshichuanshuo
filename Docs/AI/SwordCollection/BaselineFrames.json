@@ -1,0 +1,2486 @@
+[
+  {
+    "source": "RedKnight_00",
+    "hand": [
+      -0.668642,
+      0.974903762
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      30,
+      1335,
+      47,
+      67
+    ],
+    "pivot": [
+      31.589571,
+      46.70352
+    ],
+    "ppu": 34,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_54",
+    "hand": [
+      -0.9405882,
+      0.976470947
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      0,
+      0,
+      512,
+      685
+    ],
+    "pivot": [
+      203.82489,
+      202.106354
+    ],
+    "ppu": 130.275024,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostUpgrade.png"
+  },
+  {
+    "source": "RedKnight_55",
+    "hand": [
+      -0.9432315,
+      1.976471
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      0,
+      0,
+      512,
+      685
+    ],
+    "pivot": [
+      203.82489,
+      202.106354
+    ],
+    "ppu": 130.275024,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostUpgrade.png"
+  },
+  {
+    "source": "RedKnight_56",
+    "hand": [
+      -0.933171749,
+      1.9759872
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      512,
+      0,
+      512,
+      685
+    ],
+    "pivot": [
+      208.9028,
+      148.034241
+    ],
+    "ppu": 130.275024,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostUpgrade.png"
+  },
+  {
+    "source": "RedKnight_57",
+    "hand": [
+      -0.9440422,
+      1.969205
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      1024,
+      0,
+      512,
+      685
+    ],
+    "pivot": [
+      250.663177,
+      147.665726
+    ],
+    "ppu": 130.275024,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostUpgrade.png"
+  },
+  {
+    "source": "RedKnight_58",
+    "hand": [
+      -0.9382638,
+      1.96833169
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      1536,
+      0,
+      512,
+      685
+    ],
+    "pivot": [
+      343.125458,
+      146.329346
+    ],
+    "ppu": 130.275024,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostUpgrade.png"
+  },
+  {
+    "source": "RedKnight_59",
+    "hand": [
+      -0.942963,
+      1.95957768
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      512,
+      0,
+      512,
+      685
+    ],
+    "pivot": [
+      208.9028,
+      148.034241
+    ],
+    "ppu": 130.275024,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostUpgrade.png"
+  },
+  {
+    "source": "RedKnight_60",
+    "hand": [
+      -0.9456157,
+      1.9625783
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      1024,
+      0,
+      512,
+      685
+    ],
+    "pivot": [
+      250.663177,
+      147.665726
+    ],
+    "ppu": 130.275024,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostUpgrade.png"
+  },
+  {
+    "source": "RedKnight_61",
+    "hand": [
+      -0.940587461,
+      0.976470947
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      1536,
+      0,
+      512,
+      685
+    ],
+    "pivot": [
+      343.125458,
+      146.329346
+    ],
+    "ppu": 130.275024,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostUpgrade.png"
+  },
+  {
+    "source": "RedKnight_38",
+    "hand": [
+      -0.6315858,
+      0.93011117
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      33,
+      674,
+      70,
+      51
+    ],
+    "pivot": [
+      25.67205,
+      27.5389042
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_39",
+    "hand": [
+      -0.625446439,
+      0.9347857
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      171,
+      677,
+      75,
+      42
+    ],
+    "pivot": [
+      29.0806026,
+      24.1275387
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_40",
+    "hand": [
+      -0.620937943,
+      0.934898853
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      302,
+      673,
+      80,
+      50
+    ],
+    "pivot": [
+      27.37294,
+      30.6514359
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_41",
+    "hand": [
+      -0.6358665,
+      0.9303176
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      441,
+      660,
+      62,
+      60
+    ],
+    "pivot": [
+      22.8473377,
+      33.7127
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_35",
+    "hand": [
+      -0.6266181,
+      0.9290161
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      690,
+      804,
+      74,
+      61
+    ],
+    "pivot": [
+      49.737175,
+      35.47554
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_36",
+    "hand": [
+      -0.628145933,
+      0.9299065
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      856,
+      793,
+      41,
+      85
+    ],
+    "pivot": [
+      16.6041679,
+      55.87134
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_37",
+    "hand": [
+      -0.654619753,
+      0.91819495
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      991,
+      787,
+      39,
+      80
+    ],
+    "pivot": [
+      17.0072,
+      50.9720421
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_14",
+    "hand": [
+      -0.5868311,
+      0.9760742
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      15,
+      1092,
+      85,
+      34
+    ],
+    "pivot": [
+      27.9753075,
+      17.8011684
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_15",
+    "hand": [
+      -0.43936646,
+      0.928287268
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      155,
+      1087,
+      75,
+      34
+    ],
+    "pivot": [
+      30.02607,
+      14.4351711
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_16",
+    "hand": [
+      0.667921,
+      1.60359466
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      306,
+      1076,
+      59,
+      80
+    ],
+    "pivot": [
+      21.40942,
+      25.7876225
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_17",
+    "hand": [
+      0.641576231,
+      1.52873683
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      435,
+      1079,
+      68,
+      70
+    ],
+    "pivot": [
+      23.9937668,
+      23.2165775
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_18",
+    "hand": [
+      0.753464758,
+      1.42161655
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      557,
+      1088,
+      73,
+      59
+    ],
+    "pivot": [
+      26.1529331,
+      17.44961
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_19",
+    "hand": [
+      0.5906173,
+      1.40091479
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      708,
+      1067,
+      51,
+      83
+    ],
+    "pivot": [
+      20.0499649,
+      25.7582016
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_20",
+    "hand": [
+      -0.362426758,
+      0.811401367
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      833,
+      1085,
+      87,
+      45
+    ],
+    "pivot": [
+      30.50679,
+      16.0995731
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_21",
+    "hand": [
+      -0.396706045,
+      0.8927002
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      981,
+      1076,
+      52,
+      75
+    ],
+    "pivot": [
+      21.4530373,
+      27.7401562
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_01",
+    "hand": [
+      -0.5717852,
+      0.9459085
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      153,
+      1338,
+      58,
+      70
+    ],
+    "pivot": [
+      40.1240463,
+      47.4132156
+    ],
+    "ppu": 34,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_02",
+    "hand": [
+      -0.446686417,
+      0.943926632
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      291,
+      1343,
+      45,
+      64
+    ],
+    "pivot": [
+      29.08699,
+      42.9642639
+    ],
+    "ppu": 34,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_03",
+    "hand": [
+      -0.430419922,
+      0.9452838
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      427,
+      1335,
+      53,
+      80
+    ],
+    "pivot": [
+      35.8565979,
+      53.2768822
+    ],
+    "ppu": 34,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_04",
+    "hand": [
+      -0.339902848,
+      0.9379703
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      568,
+      1340,
+      55,
+      72
+    ],
+    "pivot": [
+      36.1029854,
+      46.9961624
+    ],
+    "ppu": 34,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_05",
+    "hand": [
+      -0.323458165,
+      0.938447833
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      706,
+      1336,
+      47,
+      80
+    ],
+    "pivot": [
+      30.6939468,
+      52.6696053
+    ],
+    "ppu": 34,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_06",
+    "hand": [
+      -1.10343909,
+      1.76411343
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      0,
+      444,
+      443,
+      443
+    ],
+    "pivot": [
+      163.9599,
+      113.244583
+    ],
+    "ppu": 180.55304,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnight_07",
+    "hand": [
+      -1.26751351,
+      1.764451
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      444,
+      444,
+      443,
+      443
+    ],
+    "pivot": [
+      197.732025,
+      101.875496
+    ],
+    "ppu": 180.55304,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnight_08",
+    "hand": [
+      -1.025696,
+      1.9166224
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      887,
+      444,
+      443,
+      443
+    ],
+    "pivot": [
+      305.030762,
+      96.3839951
+    ],
+    "ppu": 180.55304,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnight_09",
+    "hand": [
+      -0.473957568,
+      0.6630788
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      1303.39,
+      444,
+      469.61,
+      443
+    ],
+    "pivot": [
+      129.588348,
+      124.163406
+    ],
+    "ppu": 180.55304,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnight_10",
+    "hand": [
+      0.654272437,
+      1.2840935
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      0,
+      0,
+      487.35,
+      443
+    ],
+    "pivot": [
+      118.930763,
+      213.0932
+    ],
+    "ppu": 180.55304,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnight_11",
+    "hand": [
+      0.520672,
+      1.283993
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      444,
+      0,
+      443,
+      443
+    ],
+    "pivot": [
+      313.8329,
+      300.6872
+    ],
+    "ppu": 180.55304,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnight_12",
+    "hand": [
+      -0.9850957,
+      0.665215
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      842.65,
+      0,
+      487.349976,
+      443
+    ],
+    "pivot": [
+      374.461151,
+      199.393509
+    ],
+    "ppu": 180.55304,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnight_13",
+    "hand": [
+      -0.7088338,
+      1.28879321
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      1330,
+      0,
+      443,
+      443
+    ],
+    "pivot": [
+      329.1135,
+      302.690277
+    ],
+    "ppu": 180.55304,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnight_42",
+    "hand": [
+      -0.627774835,
+      0.9322671
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      26,
+      542,
+      84,
+      37
+    ],
+    "pivot": [
+      30.3602085,
+      20.3370934
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_43",
+    "hand": [
+      -0.630619049,
+      0.9386022
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      163,
+      542,
+      89,
+      42
+    ],
+    "pivot": [
+      32.0690575,
+      22.0821724
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_44",
+    "hand": [
+      -0.624663651,
+      0.9346062
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      289,
+      544,
+      94,
+      39
+    ],
+    "pivot": [
+      32.50022,
+      18.6262646
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_45",
+    "hand": [
+      -0.63856,
+      0.933938444
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      435,
+      553,
+      98,
+      41
+    ],
+    "pivot": [
+      32.0343971,
+      25.4431915
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_46",
+    "hand": [
+      -0.62074554,
+      0.916091
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      566,
+      564,
+      101,
+      38
+    ],
+    "pivot": [
+      32.3311653,
+      14.6731453
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_47",
+    "hand": [
+      -0.628865957,
+      0.9213131
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      677,
+      542,
+      92,
+      40
+    ],
+    "pivot": [
+      29.9120045,
+      15.3170242
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_48",
+    "hand": [
+      -0.627182841,
+      0.9092066
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      825,
+      526,
+      66,
+      67
+    ],
+    "pivot": [
+      24.6892757,
+      43.8950729
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_49",
+    "hand": [
+      -0.5879429,
+      0.948949456
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      939,
+      525,
+      118,
+      41
+    ],
+    "pivot": [
+      34.9160233,
+      15.3438711
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_50",
+    "hand": [
+      -0.7077764,
+      1.733096
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      14,
+      426,
+      119,
+      32
+    ],
+    "pivot": [
+      35.892128,
+      18.69849
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_51",
+    "hand": [
+      -0.5846372,
+      1.56213737
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      155,
+      422,
+      110,
+      32
+    ],
+    "pivot": [
+      36.2066956,
+      18.341547
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_52",
+    "hand": [
+      -0.6252944,
+      1.73058808
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      281,
+      422,
+      115,
+      27
+    ],
+    "pivot": [
+      34.7236,
+      13.5812063
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_53",
+    "hand": [
+      -0.493436128,
+      1.70700967
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      412,
+      423,
+      121,
+      26
+    ],
+    "pivot": [
+      33.7167625,
+      13.5348148
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_62",
+    "hand": [
+      -0.635834038,
+      1.596568
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      44,
+      116,
+      38,
+      78
+    ],
+    "pivot": [
+      17.94044,
+      49.8411
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_63",
+    "hand": [
+      -0.637823,
+      1.60204983
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      170,
+      116,
+      50,
+      79
+    ],
+    "pivot": [
+      31.8616982,
+      51.31565
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_64",
+    "hand": [
+      -0.6312383,
+      1.60111368
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      299,
+      116,
+      71,
+      71
+    ],
+    "pivot": [
+      46.9343643,
+      45.4302521
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_22",
+    "hand": [
+      -0.6308465,
+      0.929811358
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      31,
+      932,
+      48,
+      58
+    ],
+    "pivot": [
+      21.7113743,
+      26.8372917
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_23",
+    "hand": [
+      -0.6378167,
+      0.930306852
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      154,
+      934,
+      76,
+      37
+    ],
+    "pivot": [
+      29.8401566,
+      16.55659
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_28",
+    "hand": [
+      -0.640899837,
+      0.930644333
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      833,
+      931,
+      71,
+      63
+    ],
+    "pivot": [
+      26.3737679,
+      39.0590553
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_29",
+    "hand": [
+      -0.6025835,
+      0.972388744
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      956,
+      957,
+      93,
+      50
+    ],
+    "pivot": [
+      66.1954,
+      29.9536171
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_30",
+    "hand": [
+      -0.6252942,
+      0.9370584
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      20,
+      810,
+      46,
+      59
+    ],
+    "pivot": [
+      26.5028534,
+      36.39266
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_24",
+    "hand": [
+      -0.6155385,
+      0.886199951
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      295,
+      937,
+      78,
+      56
+    ],
+    "pivot": [
+      27.9291916,
+      19.95027
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_25",
+    "hand": [
+      -0.605509043,
+      0.9286499
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      423,
+      948,
+      89,
+      43
+    ],
+    "pivot": [
+      31.7585278,
+      16.9364529
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_26",
+    "hand": [
+      -0.6052532,
+      0.93776387
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      557,
+      943,
+      80,
+      38
+    ],
+    "pivot": [
+      31.1174126,
+      16.7786674
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_27",
+    "hand": [
+      -0.6033365,
+      0.9363529
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      693,
+      948,
+      79,
+      48
+    ],
+    "pivot": [
+      30.46917,
+      16.1432362
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_31",
+    "hand": [
+      -0.587457359,
+      0.964624763
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      164,
+      798,
+      38,
+      66
+    ],
+    "pivot": [
+      19.5695629,
+      44.6694679
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_32",
+    "hand": [
+      -0.6009841,
+      0.9490823
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      296,
+      825,
+      78,
+      37
+    ],
+    "pivot": [
+      33.6710777,
+      17.092514
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_33",
+    "hand": [
+      -0.637898743,
+      0.9311057
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      428,
+      798,
+      57,
+      72
+    ],
+    "pivot": [
+      22.4101,
+      27.5064
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_34",
+    "hand": [
+      -0.6263804,
+      0.9316963
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      585,
+      798,
+      40,
+      74
+    ],
+    "pivot": [
+      22.5421066,
+      46.9365
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_65",
+    "hand": [
+      -0.6519551,
+      1.31266069
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      44,
+      116,
+      38,
+      78
+    ],
+    "pivot": [
+      17.94044,
+      49.8411
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_66",
+    "hand": [
+      -0.647835851,
+      1.34488177
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      170,
+      116,
+      50,
+      79
+    ],
+    "pivot": [
+      31.8616982,
+      51.31565
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnight_67",
+    "hand": [
+      -0.608115733,
+      1.33504963
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      299,
+      116,
+      71,
+      71
+    ],
+    "pivot": [
+      46.9343643,
+      45.4302521
+    ],
+    "ppu": 34,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostMain.png"
+  },
+  {
+    "source": "RedKnightSkill_30",
+    "hand": [
+      -0.6739827,
+      0.8501899
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      59,
+      204,
+      59,
+      120
+    ],
+    "pivot": [
+      29.4518967,
+      83.84338
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_31",
+    "hand": [
+      -0.6590243,
+      0.8414634
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      215,
+      205,
+      59,
+      118
+    ],
+    "pivot": [
+      29.0486164,
+      82.62262
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_32",
+    "hand": [
+      -0.6240422,
+      0.8423819
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      386,
+      206,
+      60,
+      117
+    ],
+    "pivot": [
+      29.8625546,
+      81.48852
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_33",
+    "hand": [
+      -0.6590243,
+      0.8414634
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      554,
+      204,
+      59,
+      119
+    ],
+    "pivot": [
+      28.9702587,
+      83.8268051
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_34",
+    "hand": [
+      -0.651219249,
+      0.8414634
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      717,
+      204,
+      64,
+      122
+    ],
+    "pivot": [
+      31.2884731,
+      85.48833
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_35",
+    "hand": [
+      -0.651219249,
+      0.8414634
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      886,
+      204,
+      65,
+      121
+    ],
+    "pivot": [
+      31.4330921,
+      84.64739
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_36",
+    "hand": [
+      -0.6590258,
+      0.8414634
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      1053,
+      204,
+      64,
+      121
+    ],
+    "pivot": [
+      31.55406,
+      84.7691956
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_37",
+    "hand": [
+      -0.7212072,
+      0.885058165
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      1222,
+      204,
+      64,
+      120
+    ],
+    "pivot": [
+      31.1477051,
+      83.41037
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_38",
+    "hand": [
+      -0.6542148,
+      0.698255241
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      59,
+      47,
+      58,
+      114
+    ],
+    "pivot": [
+      28.3246536,
+      79.70308
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_39",
+    "hand": [
+      -0.6986566,
+      0.7380429
+    ],
+    "hidden": true,
+    "sort": -1,
+    "rect": [
+      210,
+      42,
+      60,
+      115
+    ],
+    "pivot": [
+      30.1321049,
+      80.56618
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_10",
+    "hand": [
+      -0.487786263,
+      0.5380115
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      15,
+      703,
+      140,
+      59
+    ],
+    "pivot": [
+      42.3769722,
+      30.7329388
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_11",
+    "hand": [
+      -0.4850827,
+      0.5157441
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      183,
+      699,
+      147,
+      58
+    ],
+    "pivot": [
+      40.4396439,
+      30.4817524
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_12",
+    "hand": [
+      -0.411694229,
+      0.614475131
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      349,
+      689,
+      154,
+      60
+    ],
+    "pivot": [
+      43.2777328,
+      30.9233913
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_13",
+    "hand": [
+      -0.4962644,
+      0.536311448
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      530,
+      694,
+      140,
+      56
+    ],
+    "pivot": [
+      41.8273048,
+      27.8651714
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_14",
+    "hand": [
+      -0.479056954,
+      0.523156166
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      695,
+      695,
+      143,
+      57
+    ],
+    "pivot": [
+      42.9427719,
+      29.2978363
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_15",
+    "hand": [
+      -0.500059,
+      0.554462731
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      868,
+      696,
+      138,
+      60
+    ],
+    "pivot": [
+      42.6636848,
+      30.8072453
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_16",
+    "hand": [
+      -0.5069381,
+      0.552722454
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      1032,
+      695,
+      141,
+      58
+    ],
+    "pivot": [
+      39.6586151,
+      29.8568649
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_17",
+    "hand": [
+      -0.487317532,
+      0.5365854
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      1197,
+      699,
+      136,
+      58
+    ],
+    "pivot": [
+      41.0472832,
+      28.107338
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_04",
+    "hand": [
+      -0.288103253,
+      0.890499949
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      687,
+      1020,
+      151,
+      63
+    ],
+    "pivot": [
+      45.2042122,
+      32.0989647
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_05",
+    "hand": [
+      -0.280622721,
+      0.8846376
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      862,
+      1022,
+      144,
+      58
+    ],
+    "pivot": [
+      46.70588,
+      29.15955
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_06",
+    "hand": [
+      -0.2822007,
+      0.935791
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      1032,
+      1017,
+      141,
+      56
+    ],
+    "pivot": [
+      45.77653,
+      29.3391457
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_07",
+    "hand": [
+      -0.261017025,
+      0.756097555
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      1196,
+      1017,
+      137,
+      63
+    ],
+    "pivot": [
+      39.2610054,
+      32.09323
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_22",
+    "hand": [
+      -0.9831155,
+      2.21777272
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      887,
+      444,
+      443,
+      443
+    ],
+    "pivot": [
+      305.030762,
+      96.3839951
+    ],
+    "ppu": 173.563614,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnightSkill_23",
+    "hand": [
+      -0.615869462,
+      2.23548245
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      444,
+      444,
+      443,
+      443
+    ],
+    "pivot": [
+      197.732025,
+      101.875496
+    ],
+    "ppu": 173.563614,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnightSkill_24",
+    "hand": [
+      0.009948544,
+      0.8508256
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      1303.39,
+      444,
+      469.61,
+      443
+    ],
+    "pivot": [
+      129.588348,
+      124.163406
+    ],
+    "ppu": 173.563614,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnightSkill_25",
+    "hand": [
+      -0.0019004636,
+      0.869216561
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      0,
+      0,
+      487.35,
+      443
+    ],
+    "pivot": [
+      118.930763,
+      213.0932
+    ],
+    "ppu": 173.563614,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnightSkill_00",
+    "hand": [
+      -0.603953958,
+      0.7376233
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      39,
+      988,
+      108,
+      111
+    ],
+    "pivot": [
+      33.3293076,
+      75.9614258
+    ],
+    "ppu": 57.3999977,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_01",
+    "hand": [
+      -0.65650773,
+      0.725515962
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      205,
+      988,
+      101,
+      111
+    ],
+    "pivot": [
+      31.9657364,
+      76.9438858
+    ],
+    "ppu": 57.3999977,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_02",
+    "hand": [
+      -0.6488493,
+      0.828032732
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      365,
+      988,
+      126,
+      108
+    ],
+    "pivot": [
+      37.4079933,
+      77.03522
+    ],
+    "ppu": 57.3999977,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_03",
+    "hand": [
+      -0.674996138,
+      0.848275542
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      547,
+      987,
+      99,
+      110
+    ],
+    "pivot": [
+      35.753582,
+      79.67575
+    ],
+    "ppu": 57.3999977,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_08",
+    "hand": [
+      -0.6404615,
+      0.7791048
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      54,
+      835,
+      68,
+      109
+    ],
+    "pivot": [
+      25.41317,
+      70.94981
+    ],
+    "ppu": 57.3999977,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_09",
+    "hand": [
+      -0.6552628,
+      0.835660636
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      206,
+      836,
+      71,
+      111
+    ],
+    "pivot": [
+      27.1604652,
+      73.99034
+    ],
+    "ppu": 57.3999977,
+    "flipX": true,
+    "flipY": true,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_18",
+    "hand": [
+      0.6880065,
+      1.62326574
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      38,
+      531,
+      109,
+      118
+    ],
+    "pivot": [
+      35.299427,
+      30.38624
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_19",
+    "hand": [
+      0.6832192,
+      1.60914874
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      209,
+      534,
+      94,
+      116
+    ],
+    "pivot": [
+      29.3600044,
+      31.0805168
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_20",
+    "hand": [
+      0.705397248,
+      1.6110096
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      367,
+      542,
+      136,
+      99
+    ],
+    "pivot": [
+      41.2140579,
+      29.3265533
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_21",
+    "hand": [
+      0.683111966,
+      1.609844
+    ],
+    "hidden": false,
+    "sort": -1,
+    "rect": [
+      541,
+      533,
+      91,
+      112
+    ],
+    "pivot": [
+      33.3055229,
+      32.5693474
+    ],
+    "ppu": 57.3999977,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostExtra.png"
+  },
+  {
+    "source": "RedKnightSkill_26",
+    "hand": [
+      0.0579631142,
+      0.904100358
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      0,
+      0,
+      487.35,
+      443
+    ],
+    "pivot": [
+      118.930763,
+      213.0932
+    ],
+    "ppu": 173.563614,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnightSkill_27",
+    "hand": [
+      0.00201322976,
+      0.8719869
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      444,
+      0,
+      443,
+      443
+    ],
+    "pivot": [
+      313.8329,
+      300.6872
+    ],
+    "ppu": 173.563614,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnightSkill_28",
+    "hand": [
+      -0.009974968,
+      0.7831079
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      842.65,
+      0,
+      487.349976,
+      443
+    ],
+    "pivot": [
+      374.461151,
+      199.393509
+    ],
+    "ppu": 173.563614,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  },
+  {
+    "source": "RedKnightSkill_29",
+    "hand": [
+      -0.00355585618,
+      0.8612492
+    ],
+    "hidden": false,
+    "sort": 1,
+    "rect": [
+      1330,
+      0,
+      443,
+      443
+    ],
+    "pivot": [
+      329.1135,
+      302.690277
+    ],
+    "ppu": 173.563614,
+    "flipX": false,
+    "flipY": false,
+    "texture": "Assets/player/EquipmentTest/Animated/FrostAttack.png"
+  }
+]

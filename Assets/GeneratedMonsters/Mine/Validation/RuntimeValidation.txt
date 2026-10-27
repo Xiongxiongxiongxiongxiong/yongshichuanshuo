@@ -1,0 +1,27 @@
+Mine creature runtime validation
+
+Imp ranged telegraph/attack=True states=Windup,Attack,Recover,Patrol,Chase damage=8 ore=True
+Imp melee telegraph/attack=True states=Attack,Recover,Patrol,Chase,Windup damage=0 ore=True
+Bat dive/return telegraph/attack=True states=Return,Sleep,Windup,Attack damage=18 ore=True
+Crawler charge/recover telegraph/attack=True states=Windup,Attack,Recover,Patrol,Chase damage=24 ore=False
+CrystalCrawler J from left damage=10 whiteFlash=True barChanged=True
+CrystalCrawler J from right damage=10 whiteFlash=True barChanged=True
+CrystalCrawler lethal disables collider=True
+Death last frame=True destroyed=True
+LanternBat J from left damage=10 whiteFlash=True barChanged=True
+LanternBat J from right damage=10 whiteFlash=True barChanged=True
+LanternBat lethal disables collider=True
+Death last frame=True destroyed=True
+PickaxeImp J from left damage=10 whiteFlash=True barChanged=True
+PickaxeImp J from right damage=10 whiteFlash=True barChanged=True
+PickaxeImp lethal disables collider=True
+Death last frame=True destroyed=True
+
+Isolated abilities
+Imp ore damage=10 earlyWindupDamage=0 source=Imp Thrown Ore
+Imp pickaxe damage=28 earlyWindupDamage=0 source=PickaxeImp(Clone),PickaxeImp(Clone)
+Bat dive damage=8 earlyWindupDamage=0 source=LanternBat(Clone)
+Crawler charge damage=12 earlyWindupDamage=0 source=CrystalCrawler(Clone)
+
+Slide and sword skills
+slideStarted=True slidingImmune=True collisionIgnored=True passedThrough=True collisionRestored=True thrustStarted=True thrustDamage=40 whirlwindStarted=True whirlwindDamage=32

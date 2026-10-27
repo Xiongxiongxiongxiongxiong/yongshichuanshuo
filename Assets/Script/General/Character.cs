@@ -27,9 +27,20 @@ public class Character : MonoBehaviour
 
     public UnityEvent<Transform> OnTakeDamage;
     public UnityEvent OnDead;
+    private void Awake()
+    {
+        // Enemies loaded after the NewGame event still need their initial health.
+        if (CurrentHp <= 0)
+        {
+            CurrentHp = maxHp;
+        }
+    }
+
     private void NewGame()
     {
         CurrentHp = maxHp;
+        invulnerable = false;
+        invulnerableCounter = 0;
         OnHealthChange?.Invoke(this);
     }
 
@@ -58,7 +69,7 @@ public class Character : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other)
     {
         //如果落水-死亡
-        if (other.CompareTag("water"))
+        if (CurrentHp > 0 && other.CompareTag("water"))
         {
             CurrentHp = 0;
             OnHealthChange?.Invoke(this);
@@ -69,14 +80,19 @@ public class Character : MonoBehaviour
 
     public void TakeDamage(Attack attack)
     {
-        if (invulnerable)
+        var slide = GetComponent<PlayerSlide>();
+        if (slide != null && slide.IsSliding) return;
+        if (invulnerable || CurrentHp <= 0 || attack == null)
         {
             return;
         }
 
-        if (CurrentHp - attack.damage>0)
+        var guard = GetComponent<DirectionalDamageGuard>();
+        float damage = guard != null ? guard.ModifyDamage(attack.damage, attack.transform) : attack.damage;
+        if (damage <= 0) return;
+        if (CurrentHp - damage>0)
         {
-            CurrentHp -= attack.damage;
+            CurrentHp -= damage;
             TriggerInvulnerable();
             
             //受伤

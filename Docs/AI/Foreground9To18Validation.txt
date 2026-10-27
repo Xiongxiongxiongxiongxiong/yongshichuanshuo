@@ -1,0 +1,10 @@
+SampleScene_9: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_10: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_11: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_12: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_13: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_14: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_15: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_16: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_17: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.
+SampleScene_18: PASS — four approximately 1086x1448 foreground textures, supported materials, endpoint UVs, unchanged collision, source background retained/darkened, chest count preserved, no missing scripts.

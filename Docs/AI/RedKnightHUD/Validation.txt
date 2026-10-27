@@ -1,0 +1,17 @@
+Health ratio=0.7 text=70 / 100 stamina=0.55
+Character click=True paused=True inputDisabled=True
+Resume=True, bag=True, map=True, raycast=Icon, click=True, spin=False
+Actual spin pointer click=True, eventSystemCount=1
+Live cooldown label=2.7, radial fill=0.8888855, action disabled=True
+1440x1080 layout
+Vitals: (121.24, 960.49, 0.00) .. (493.63, 1047.09, 0.00)
+Area Plaque: (585.77, 1015.91, 0.00) .. (854.23, 1060.95, 0.00)
+Adventure Map: (1162.87, 1007.25, 0.00) .. (1356.86, 1059.22, 0.00)
+Action Bar: (491.37, 24.25, 0.00) .. (948.63, 147.22, 0.00)
+Keyboard M opens map=True
+Escape closes map=True, no pause reopened=True, time restored=True
+Level HUD visible=False, map label=冒险地图  M, area=暮光河畔镇
+Cold travel: loading=False, scene=Game Scene8, HUD=1, label=返回主城  M, area=矿洞 · 琥珀矿井
+Return-to-town succeeded=True
+Menu HUD hidden=True
+Final checks: menu hiding and restored town succeeded. Unity compilation passed; final Console read returned zero errors. Temporary Play Mode test values were discarded. GameView restored to Full HD.

@@ -1,0 +1,16 @@
+0 GreenIde
+1 GreenRun
+2 GreenWalk
+3 GreenJump04
+4 GreenJump03
+5 GreenJump02
+6 GreenJump
+7 GreenJump05
+8 GreenAttack01
+9 GreenAttack02
+10 GreenAttack03
+11 GreenCrouch
+12 GreenDead
+13 GreenHurt
+14 WindThrust_1
+15 Whirlwind_2

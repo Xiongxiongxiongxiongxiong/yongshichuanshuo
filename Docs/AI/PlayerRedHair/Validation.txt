@@ -1,0 +1,1 @@
+Checked 81 sprites across Animator, ladder, upgrade and sword skills; missing regions=0; shader supported=True; shader diagnostics=0

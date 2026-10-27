@@ -1,0 +1,5 @@
+Idle presence/orientation checks=24 (6 frames x2 weapons x2 facings)
+All authored frame/facing checks=216
+Attack/thrust/sliding pose flipVertical=false; 12 rest poses corrected.
+Keyboard B selected frost=True, idle flipY=True, bagOpen=False
+Horizontal follow-up: 216 pose/facing combinations passed; vertical correction retained.

@@ -1,0 +1,8 @@
+Language|True|1
+Resolution|False|0
+Master|True|1
+Music|True|1
+Effects|True|1
+Muted|True|0
+Fullscreen|False|0
+Checkpoint|True|eyJpZCI6IlR3aWxpZ2h0Uml2ZXJUb3duIiwic2NlbmVHdWlkIjoiODgxMjE4NzVkYTg4MTFlNDE4ZjIzMjY2MzEwYzdhMjgiLCJwb3NpdGlvbiI6eyJ4IjozNS40MTY2Njc5MzgyMzI0MiwieSI6OC45NTQ5OTk5MjM3MDYwNTUsInoiOjAuMH19

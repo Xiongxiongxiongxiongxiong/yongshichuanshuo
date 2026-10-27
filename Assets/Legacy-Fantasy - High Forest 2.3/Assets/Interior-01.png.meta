@@ -5272,6 +5272,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Scene6_RealChest
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c1c6461f9ffd44497389607d27b321
+      internalID: -844317511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -5299,8 +5320,6 @@ TextureImporter:
       Interior-01_11: -1814708572
       Interior-01_110: -739393250
       Interior-01_111: 1810366925
-      Interior-01_112: -1549494
-      Interior-01_113: -42188330
       Interior-01_114: -1571855873
       Interior-01_115: 958952971
       Interior-01_116: 2005158253
@@ -5323,7 +5342,6 @@ TextureImporter:
       Interior-01_131: -1427325534
       Interior-01_132: 900673762
       Interior-01_133: -1897382037
-      Interior-01_134: 151899724
       Interior-01_135: -304623498
       Interior-01_136: 1544339012
       Interior-01_137: -1859219434
@@ -5345,7 +5363,6 @@ TextureImporter:
       Interior-01_151: -558289071
       Interior-01_152: -139731209
       Interior-01_153: 305302120
-      Interior-01_154: 250281941
       Interior-01_155: -1846273493
       Interior-01_156: -769289166
       Interior-01_157: -1544207840
@@ -5363,8 +5380,6 @@ TextureImporter:
       Interior-01_168: -1406938039
       Interior-01_169: -121485217
       Interior-01_17: -1034741299
-      Interior-01_170: 1503830300
-      Interior-01_171: -1469375464
       Interior-01_172: 92514439
       Interior-01_173: 1681182346
       Interior-01_174: 585797601
@@ -5533,6 +5548,7 @@ TextureImporter:
       Interior-01_97: 1187087383
       Interior-01_98: 221773856
       Interior-01_99: 1229093746
+      Scene6_RealChest: -844317511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

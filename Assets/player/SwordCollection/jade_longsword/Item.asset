@@ -1,0 +1,1643 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aadd7fa1ad84da848b2e84765a476b40, type: 3}
+  m_Name: Item
+  m_EditorClassIdentifier: 
+  id: sword.jade_longsword
+  displayName: "\u7FE0\u7389\u957F\u5251"
+  description: "\u7CBE\u826F \xB7 \u5355\u624B\u5251\n\u7FE0\u7389\u9576\u5165\u62A4\u624B\uFF0C\u7CBE\u94A2\u6620\u51FA\u6E05\u51BD\u7684\u950B\u8292\u3002"
+  icon: {fileID: 21300000, guid: 3d5519b04ee23264087240ad98d73d9b, type: 2}
+  rarity: 1
+  weaponFrames:
+  - source: {fileID: 21300000, guid: 314621be87b66334fbeaabf6c534e360, type: 2}
+    sprite: {fileID: 21300000, guid: 6e8b37d242cedf147b3de8569f7d68fb, type: 2}
+    hand: {x: -0.668642, y: 0.97490376}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 19
+      y: 1330
+      width: 81
+      height: 106
+    bodyPivot: {x: 0.55654323, y: -0.009433962}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: -4916574534305595204, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 705a8715351ff3944a115c373ebee841, type: 2}
+    hand: {x: -0.9405882, y: 0.97647095}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 16
+      y: 270
+      width: 84
+      height: 103
+    bodyPivot: {x: 0.57238096, y: -0.1262136}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 8728122361671255004, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 4ca8c34d2401a88489df1b2bd326c2f5, type: 2}
+    hand: {x: -0.9432315, y: 1.976471}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 154
+      y: 269
+      width: 77
+      height: 102
+    bodyPivot: {x: 0.57083964, y: -0.11764706}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -2143209898922920823, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 89d256ddf985e344d8ca3cc12f718f7a, type: 2}
+    hand: {x: -0.93317175, y: 1.9759872}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 290
+      y: 268
+      width: 71
+      height: 103
+    bodyPivot: {x: 0.5750738, y: -0.106796116}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -4232919321494911570, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: f73884e8e03342e4fbdd211800ffb78e, type: 2}
+    hand: {x: -0.9440422, y: 1.969205}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 419
+      y: 268
+      width: 75
+      height: 102
+    bodyPivot: {x: 0.60939854, y: -0.10784314}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5095849578975831747, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: eb73d6431dd4ebb43b30ace09c96a3e4, type: 2}
+    hand: {x: -0.9382638, y: 1.9683317}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 553
+      y: 268
+      width: 71
+      height: 102
+    bodyPivot: {x: 0.62789404, y: -0.10784314}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -3878081506422922702, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 9748d918d077a2841a2f358fef274dd3, type: 2}
+    hand: {x: -0.942963, y: 1.9595777}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 685
+      y: 268
+      width: 72
+      height: 102
+    bodyPivot: {x: 0.64521015, y: -0.10784314}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 3495543654580962699, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 8c0fa7c8cce967b47a6327a56736eb17, type: 2}
+    hand: {x: -0.9456157, y: 1.9625783}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 814
+      y: 268
+      width: 78
+      height: 101
+    bodyPivot: {x: 0.65807414, y: -0.10891089}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -3920937829324081586, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 39564998a99e5f248a6b851eb0ded051, type: 2}
+    hand: {x: -0.94058746, y: 0.97647095}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 959
+      y: 268
+      width: 85
+      height: 105
+    bodyPivot: {x: 0.46123964, y: -0.104761906}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -8449692785150063367, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: efce9d070551d7c478ed35e8ec1d797a, type: 2}
+    hand: {x: -0.6315858, y: 0.93011117}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 17
+      y: 661
+      width: 82
+      height: 103
+    bodyPivot: {x: 0.57414633, y: -0.019417476}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -2653081618795944018, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 3275dc22c3b87254596231ad20fc7082, type: 2}
+    hand: {x: -0.62544644, y: 0.9347857}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 158
+      y: 660
+      width: 71
+      height: 104
+    bodyPivot: {x: 0.5627416, y: -0.009615385}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -62243499380125293, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: f9d94332185cee646aaa6d5f760e9f95, type: 2}
+    hand: {x: -0.62093794, y: 0.93489885}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 289
+      y: 660
+      width: 74
+      height: 100
+    bodyPivot: {x: 0.5652735, y: -0.01}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5793265796386121664, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 39d38ddd4c19f5241a74f943fb330f62, type: 2}
+    hand: {x: -0.6358665, y: 0.9303176}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 418
+      y: 660
+      width: 73
+      height: 101
+    bodyPivot: {x: 0.63979304, y: -0.00990099}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 7935957649781622332, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: f91a6e05b442b8446bd1d3b2bfaacc9f, type: 2}
+    hand: {x: -0.6266181, y: 0.9290161}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 680
+      y: 793
+      width: 81
+      height: 111
+    bodyPivot: {x: 0.63524854, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5684570535462761828, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.62814593, y: 0.9299065}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 824
+      y: 793
+      width: 70
+      height: 108
+    bodyPivot: {x: 0.59042543, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 8760834510153185913, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.65461975, y: 0.91819495}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 971
+      y: 794
+      width: 67
+      height: 104
+    bodyPivot: {x: 0.40605026, y: -0.009615385}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -2092602645031879495, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: dc3db33aa35543e4887ee8984e7f0ab6, type: 2}
+    hand: {x: -0.5868311, y: 0.9760742}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 22
+      y: 1061
+      width: 80
+      height: 102
+    bodyPivot: {x: 0.526, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -6448272839972880049, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: fb78605d4e164134e979acca3f039e67, type: 2}
+    hand: {x: -0.43936646, y: 0.92828727}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 145
+      y: 1060
+      width: 85
+      height: 103
+    bodyPivot: {x: 0.6229959, y: 0.009708738}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 962481656785471734, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 80507b3a7bd97e3448ce27e39a1b3d37, type: 2}
+    hand: {x: 0.667921, y: 1.6035947}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 275
+      y: 1061
+      width: 87
+      height: 103
+    bodyPivot: {x: 0.6417269, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 680815619492060361, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 945e5dd991fba734293dbe04089d46e0, type: 2}
+    hand: {x: 0.64157623, y: 1.5287368}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 416
+      y: 1066
+      width: 78
+      height: 97
+    bodyPivot: {x: 0.62442166, y: -0.05154639}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 5926630781303587349, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: dc0b55f7f728080489a1837b3a447d99, type: 2}
+    hand: {x: 0.75346476, y: 1.4216166}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 542
+      y: 1060
+      width: 87
+      height: 100
+    bodyPivot: {x: 0.63885605, y: 0.01}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 1337614734101569567, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 7f037c863113be84e810cbbec88d0703, type: 2}
+    hand: {x: 0.5906173, y: 1.4009148}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 679
+      y: 1059
+      width: 81
+      height: 99
+    bodyPivot: {x: 0.6475942, y: 0.02020202}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 2550246829231324751, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 9ca514ca03c5f6d4b811b2c7039487af, type: 2}
+    hand: {x: -0.36242676, y: 0.81140137}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 823
+      y: 1058
+      width: 80
+      height: 103
+    bodyPivot: {x: 0.5291223, y: 0.029126214}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 3058829565882146458, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: a5306d958ebd6db4784c974533281273, type: 2}
+    hand: {x: -0.39670604, y: 0.8927002}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 960
+      y: 1061
+      width: 84
+      height: 101
+    bodyPivot: {x: 0.45482582, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 21300000, guid: 8edcde5447e6fb747862754c45d62bbd, type: 2}
+    sprite: {fileID: 21300000, guid: cea186dafcff5064fab607ac05c5bb48, type: 2}
+    hand: {x: -0.5717852, y: 0.9459085}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 154
+      y: 1330
+      width: 78
+      height: 106
+    bodyPivot: {x: 0.5186494, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: 21300000, guid: 65855e829757f9e42a6a348a7905e0f3, type: 2}
+    sprite: {fileID: 21300000, guid: c79b7b8b2348fc64e9f0a0f9fbcf2f07, type: 2}
+    hand: {x: -0.44668642, y: 0.94392663}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 284
+      y: 1330
+      width: 77
+      height: 106
+    bodyPivot: {x: 0.51078236, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: 21300000, guid: 47a42ef3adb07064baf6e736293f365b, type: 2}
+    sprite: {fileID: 21300000, guid: 841be272da7f7dc46ba8bec8836050f9, type: 2}
+    hand: {x: -0.43041992, y: 0.9452838}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 412
+      y: 1330
+      width: 81
+      height: 105
+    bodyPivot: {x: 0.5457394, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: 21300000, guid: 7a51e924cc8bc3541b1b0c46d134970a, type: 2}
+    sprite: {fileID: 21300000, guid: f775ec6970a0e334a97f1d20c1d2134f, type: 2}
+    hand: {x: -0.33990285, y: 0.9379703}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 547
+      y: 1330
+      width: 78
+      height: 105
+    bodyPivot: {x: 0.50103176, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: 21300000, guid: bbdc4eaff1de6ad41a355e162edfd755, type: 2}
+    sprite: {fileID: 21300000, guid: f114b74adcbe4d946bedffb600846ce4, type: 2}
+    hand: {x: -0.32345816, y: 0.93844783}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 680
+      y: 1330
+      width: 77
+      height: 105
+    bodyPivot: {x: 0.51240426, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: 3416464597710629151, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: a776b22b658134448aeee78e4c4ab00c, type: 2}
+    hand: {x: -1.1034391, y: 1.7641134}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 18
+      y: 1195
+      width: 82
+      height: 101
+    bodyPivot: {x: 0.5619512, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -4017841590892511383, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 086de89889779a9478884382ece674e4, type: 2}
+    hand: {x: -1.2675135, y: 1.764451}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 144
+      y: 1195
+      width: 87
+      height: 100
+    bodyPivot: {x: 0.6201684, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 2534661024789243140, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 63c1e68a1f3fc3c479769251803c1387, type: 2}
+    hand: {x: -1.025696, y: 1.9166224}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 284
+      y: 1194
+      width: 83
+      height: 102
+    bodyPivot: {x: 0.5642198, y: 0.009803922}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -7672198211815646172, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 16243cd3f5e8d1346bf8c664a081104f, type: 2}
+    hand: {x: -0.47395757, y: 0.6630788}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 418
+      y: 1195
+      width: 85
+      height: 101
+    bodyPivot: {x: 0.5494693, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 473823711531027091, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 04d44d495ad9a3d4d9960af7c75198a5, type: 2}
+    hand: {x: 0.65427244, y: 1.2840935}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 555
+      y: 1195
+      width: 75
+      height: 101
+    bodyPivot: {x: 0.5677397, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -6514350119082572062, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: d3e829a1200d1294186110bcbe7bf05e, type: 2}
+    hand: {x: 0.520672, y: 1.283993}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 669
+      y: 1195
+      width: 89
+      height: 101
+    bodyPivot: {x: 0.701743, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 7187739437350920247, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: e61cdbcd9561a094bbeb20ecb09e9452, type: 2}
+    hand: {x: -0.9850957, y: 0.665215}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 813
+      y: 1194
+      width: 90
+      height: 102
+    bodyPivot: {x: 0.581442, y: 0.009803922}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 6827911770512115689, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: e06dde927dd44da43aece5acb561b9b9, type: 2}
+    hand: {x: -0.7088338, y: 1.2887932}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 958
+      y: 1194
+      width: 84
+      height: 103
+    bodyPivot: {x: 0.47863534, y: 0.009708738}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 1014073374034119870, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.62777483, y: 0.9322671}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 23
+      y: 528
+      width: 79
+      height: 103
+    bodyPivot: {x: 0.52, y: -0.029126214}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 2662651888118072116, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.63061905, y: 0.9386022}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 159
+      y: 528
+      width: 79
+      height: 102
+    bodyPivot: {x: 0.49309686, y: -0.029411765}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -8049356006613908852, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.62466365, y: 0.9346062}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 289
+      y: 528
+      width: 85
+      height: 100
+    bodyPivot: {x: 0.49212047, y: -0.03}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -8856147171977165145, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.63856, y: 0.93393844}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 418
+      y: 530
+      width: 75
+      height: 97
+    bodyPivot: {x: 0.62273186, y: -0.05154639}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 6429737060647429910, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.62074554, y: 0.916091}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 544
+      y: 528
+      width: 75
+      height: 103
+    bodyPivot: {x: 0.7144064, y: -0.029126214}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5364792685236598056, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.62886596, y: 0.9213131}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 667
+      y: 527
+      width: 102
+      height: 96
+    bodyPivot: {x: 0.63191307, y: -0.020833334}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -567189623386795973, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.62718284, y: 0.9092066}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 801
+      y: 527
+      width: 109
+      height: 95
+    bodyPivot: {x: 0.59018147, y: -0.021052632}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -516765889103767844, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.5879429, y: 0.94894946}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 934
+      y: 530
+      width: 97
+      height: 56
+    bodyPivot: {x: 0.661911, y: -0.08928572}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 5257815470086878208, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.7077764, y: 1.733096}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 3
+      y: 430
+      width: 110
+      height: 45
+    bodyPivot: {x: 0.55527276, y: -0.8666667}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -286923763812296077, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.5846372, y: 1.5621374}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 134
+      y: 431
+      width: 97
+      height: 47
+    bodyPivot: {x: 0.6593263, y: -0.85106385}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -2310636056220680190, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.6252944, y: 1.7305881}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 267
+      y: 428
+      width: 116
+      height: 47
+    bodyPivot: {x: 0.55026066, y: -0.78723407}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 5217261508665376642, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.49343613, y: 1.7070097}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 401
+      y: 429
+      width: 98
+      height: 45
+    bodyPivot: {x: 0.6500499, y: -0.84444445}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 3142328156800328164, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 1eadbb938f1395d41b0937339d8f8cb5, type: 2}
+    hand: {x: -0.63583404, y: 1.596568}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 21
+      y: 143
+      width: 79
+      height: 97
+    bodyPivot: {x: 0.54531646, y: -0.20618556}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5198672329446341693, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: ec5e09f9e6b391a458b8cafdff10768a, type: 2}
+    hand: {x: -0.637823, y: 1.6020498}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 156
+      y: 143
+      width: 78
+      height: 96
+    bodyPivot: {x: 0.5378802, y: -0.20833333}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -587859137212311292, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 558e4ee3d704d964a868b6ac0128d352, type: 2}
+    hand: {x: -0.6312383, y: 1.6011137}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 285
+      y: 143
+      width: 80
+      height: 96
+    bodyPivot: {x: 0.572878, y: -0.20833333}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -1997145440283795000, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: d4e119f7f21f3bf48a47e31bd7659076, type: 2}
+    hand: {x: -0.6308465, y: 0.92981136}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 14
+      y: 929
+      width: 83
+      height: 100
+    bodyPivot: {x: 0.6033735, y: -0.02}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 4587960522825694831, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 4c7dbfb19e6d11f4da374bf9c0edcd1e, type: 2}
+    hand: {x: -0.6378167, y: 0.93030685}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 147
+      y: 928
+      width: 81
+      height: 101
+    bodyPivot: {x: 0.6290698, y: -0.00990099}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 7369462048333015906, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: f490980a7a6edc74e962622fe80b7840, type: 2}
+    hand: {x: -0.64089984, y: 0.93064433}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 811
+      y: 931
+      width: 84
+      height: 104
+    bodyPivot: {x: 0.6467831, y: -0.03846154}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 6806001675144236068, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: d05a0020b1850cc47a0837f4ffe0a88d, type: 2}
+    hand: {x: -0.6025835, y: 0.97238874}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 952
+      y: 931
+      width: 91
+      height: 105
+    bodyPivot: {x: 0.5077513, y: -0.03809524}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 5576435697938478299, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 027befed02cff3942a4161f4b0f16bb0, type: 2}
+    hand: {x: -0.6252942, y: 0.9370584}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 20
+      y: 803
+      width: 79
+      height: 102
+    bodyPivot: {x: 0.5579747, y: -0.09803922}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 7795597055245481604, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: cc602b5dd04a6b14a82ec5cc7cd49aa2, type: 2}
+    hand: {x: -0.6155385, y: 0.88619995}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 277
+      y: 927
+      width: 84
+      height: 106
+    bodyPivot: {x: 0.6408362, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 5567394251806051449, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: a9fc91e2831ccfc40a493600c3600139, type: 2}
+    hand: {x: -0.60550904, y: 0.9286499}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 405
+      y: 927
+      width: 83
+      height: 106
+    bodyPivot: {x: 0.71933603, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -6907324256008646766, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: b5fae4de993efad42992c4696af91104, type: 2}
+    hand: {x: -0.6052532, y: 0.93776387}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 543
+      y: 927
+      width: 80
+      height: 107
+    bodyPivot: {x: 0.682256, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -4884949530356052695, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 344029180a9ba684db461c6f65334153, type: 2}
+    hand: {x: -0.6033365, y: 0.9363529}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 675
+      y: 927
+      width: 81
+      height: 105
+    bodyPivot: {x: 0.6969769, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5555831986246582984, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 4f58ee87726240946937c6685ee602e2, type: 2}
+    hand: {x: -0.58745736, y: 0.96462476}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 158
+      y: 797
+      width: 75
+      height: 108
+    bodyPivot: {x: 0.5327287, y: -0.037037037}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 5254200941497201441, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 92cc6868e4ef1194db5160b17e496a15, type: 2}
+    hand: {x: -0.6009841, y: 0.9490823}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 283
+      y: 798
+      width: 79
+      height: 106
+    bodyPivot: {x: 0.60544604, y: -0.047169812}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -8163286781533245588, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: a0e6dc0c30a9e714e923eb9c6cb1504d, type: 2}
+    hand: {x: -0.63789874, y: 0.9311057}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 416
+      y: 797
+      width: 77
+      height: 107
+    bodyPivot: {x: 0.63253105, y: -0.037383176}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5159292932425620878, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 44fae54ab54f810438f7326bc2144db9, type: 2}
+    hand: {x: -0.6263804, y: 0.9316963}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 548
+      y: 797
+      width: 79
+      height: 107
+    bodyPivot: {x: 0.62760097, y: -0.037383176}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 5826284644059766005, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: 08119771510638d4ea83aa25bacf2ae8, type: 2}
+    hand: {x: -0.6519551, y: 1.3126607}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 20
+      y: 14
+      width: 79
+      height: 102
+    bodyPivot: {x: 0.5579747, y: -0.24509804}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 7637435666885700276, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: d457daeb5f6ca204f9cc0cbb3043b3f8, type: 2}
+    hand: {x: -0.64783585, y: 1.3448818}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 151
+      y: 14
+      width: 82
+      height: 102
+    bodyPivot: {x: 0.5726177, y: -0.24509804}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 307758837248210089, guid: 19494c0662828e044bca027a25dd82b1, type: 3}
+    sprite: {fileID: 21300000, guid: c6acdf1184f4a79418fe4321db218fd2, type: 2}
+    hand: {x: -0.60811573, y: 1.3350496}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 287
+      y: 14
+      width: 78
+      height: 102
+    bodyPivot: {x: 0.5619261, y: -0.24509804}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 3205023943652729995, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.6739827, y: 0.8501899}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 31
+      y: 209
+      width: 90
+      height: 129
+    bodyPivot: {x: 0.54955554, y: -0.015503876}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -4085881159254062957, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.6590243, y: 0.8414634}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 194
+      y: 209
+      width: 107
+      height: 126
+    bodyPivot: {x: 0.5089719, y: -0.015873017}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 4120036500710863469, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.6240422, y: 0.8423819}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 362
+      y: 220
+      width: 93
+      height: 116
+    bodyPivot: {x: 0.5748387, y: -0.112068966}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 3127015637003445255, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.6590243, y: 0.8414634}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 536
+      y: 207
+      width: 99
+      height: 126
+    bodyPivot: {x: 0.47939393, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5216821959419560365, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.65121925, y: 0.8414634}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 712
+      y: 207
+      width: 91
+      height: 124
+    bodyPivot: {x: 0.42263734, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -1630762076460364528, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.65121925, y: 0.8414634}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 888
+      y: 208
+      width: 83
+      height: 126
+    bodyPivot: {x: 0.36698794, y: -0.007936508}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -8258301016366351345, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.6590258, y: 0.8414634}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 1058
+      y: 207
+      width: 77
+      height: 122
+    bodyPivot: {x: 0.36961037, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 2455498987029857207, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.7212072, y: 0.88505816}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 1218
+      y: 209
+      width: 99
+      height: 119
+    bodyPivot: {x: 0.3581818, y: -0.016806724}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 6482970044757867133, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.6542148, y: 0.69825524}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 30
+      y: 52
+      width: 98
+      height: 126
+    bodyPivot: {x: 0.51489794, y: -0.015873017}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -7207988814494429715, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 0}
+    hand: {x: -0.6986566, y: 0.7380429}
+    hidden: 1
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 197
+      y: 49
+      width: 100
+      height: 129
+    bodyPivot: {x: 0.5146, y: 0.007751938}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 4527475934698646265, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 07fb6c4a0611baf48b71f829c8cf6dc8, type: 2}
+    hand: {x: -0.48778626, y: 0.5380115}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 17
+      y: 674
+      width: 123
+      height: 125
+    bodyPivot: {x: 0.51593494, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -3039462502959382064, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 32e2807b76b1fff47a35ffb144fe1886, type: 2}
+    hand: {x: -0.4850827, y: 0.5157441}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 192
+      y: 675
+      width: 107
+      height: 124
+    bodyPivot: {x: 0.5276635, y: -0.008064516}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 106714052559033057, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 77a2b0ec9b1ef624db28972ac856feb5, type: 2}
+    hand: {x: -0.41169423, y: 0.61447513}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 348
+      y: 674
+      width: 122
+      height: 122
+    bodyPivot: {x: 0.5529508, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -6133975745267247421, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 55340afbd9ccb5547ba856cdfec7dadb, type: 2}
+    hand: {x: -0.4962644, y: 0.53631145}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 536
+      y: 674
+      width: 122
+      height: 105
+    bodyPivot: {x: 0.3890164, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 730252841022264114, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: b4a37f51465c2204eb127442cd3693ef, type: 2}
+    hand: {x: -0.47905695, y: 0.52315617}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 706
+      y: 674
+      width: 117
+      height: 106
+    bodyPivot: {x: 0.38, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -6944202781196864722, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 7d5907fb28ef7d94db1433360a4f0bac, type: 2}
+    hand: {x: -0.500059, y: 0.55446273}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 875
+      y: 674
+      width: 115
+      height: 104
+    bodyPivot: {x: 0.37791303, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 7406064457671814432, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 6b0cc39c1b5ef0840bd2818d18509e88, type: 2}
+    hand: {x: -0.5069381, y: 0.55272245}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 1043
+      y: 674
+      width: 102
+      height: 105
+    bodyPivot: {x: 0.4260784, y: 0}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 8803855919268479282, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: d8d9381f518afd64cb90d44c7face2b8, type: 2}
+    hand: {x: -0.48731753, y: 0.5365854}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 1209
+      y: 673
+      width: 106
+      height: 122
+    bodyPivot: {x: 0.41943395, y: 0.008196721}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -1078907957104980968, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 9031ff2a778ea954bbdac011303f600e, type: 2}
+    hand: {x: -0.28810325, y: 0.89049995}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 708
+      y: 993
+      width: 94
+      height: 129
+    bodyPivot: {x: 0.45170212, y: 0.007751938}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 4517585449088202165, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 1f026fe6c66ca454aa57a68cebd3fd8e, type: 2}
+    hand: {x: -0.28062272, y: 0.8846376}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 875
+      y: 993
+      width: 95
+      height: 128
+    bodyPivot: {x: 0.45747367, y: 0.0078125}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 1460434679862622489, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 20ad02537f9323e418caef137457c8fb, type: 2}
+    hand: {x: -0.2822007, y: 0.935791}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 1046
+      y: 993
+      width: 100
+      height: 127
+    bodyPivot: {x: 0.4046, y: 0.007874016}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 4912392863599452877, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 8e81e1bde721fa346aa12b7015c4ca6d, type: 2}
+    hand: {x: -0.26101702, y: 0.75609756}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 1217
+      y: 993
+      width: 102
+      height: 126
+    bodyPivot: {x: 0.35745096, y: 0.007936508}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -7775387246424738880, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 9d568d51aa0c0154383430defd52afbb, type: 2}
+    hand: {x: -0.9831155, y: 2.2177727}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 15
+      y: 367
+      width: 105
+      height: 123
+    bodyPivot: {x: 0.6234286, y: -0.008130081}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -487065659598967392, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: b07fbb64cd0f0484cb7a413ffef37a67, type: 2}
+    hand: {x: -0.61586946, y: 2.2354825}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 178
+      y: 364
+      width: 97
+      height: 123
+    bodyPivot: {x: 0.72639173, y: 0.016260162}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 3360692896013465121, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 2526fc266dbc372498388d659b6bb1b4, type: 2}
+    hand: {x: 0.009948544, y: 0.8508256}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 339
+      y: 367
+      width: 119
+      height: 113
+    bodyPivot: {x: 0.642521, y: -0.0088495575}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -5119103855025846156, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 2274a91c5ec43034c88877b2fd6aef6c, type: 2}
+    hand: {x: -0.0019004636, y: 0.86921656}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 515
+      y: 367
+      width: 120
+      height: 124
+    bodyPivot: {x: 0.5705, y: -0.008064516}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -6535354785578897538, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: f3ed1ef1de2ec3c4aa87c6cd8b3807bc, type: 2}
+    hand: {x: -0.60395396, y: 0.7376233}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 27
+      y: 995
+      width: 107
+      height: 128
+    bodyPivot: {x: 0.49962616, y: -0.0078125}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: -5657886946138997429, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: e855e572365a7c8418975511cc6a5006, type: 2}
+    hand: {x: -0.65650773, y: 0.72551596}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 198
+      y: 994
+      width: 108
+      height: 128
+    bodyPivot: {x: 0.4672222, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: -873787571500068085, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: c330ad17860863d4eb910821e30602c7, type: 2}
+    hand: {x: -0.6488493, y: 0.82803273}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 367
+      y: 995
+      width: 107
+      height: 128
+    bodyPivot: {x: 0.4528972, y: -0.0078125}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: -5465252693706788438, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 1c609a48c2958ad4198ce62767c2ff5e, type: 2}
+    hand: {x: -0.67499614, y: 0.84827554}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 536
+      y: 994
+      width: 106
+      height: 129
+    bodyPivot: {x: 0.44773585, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: 2403039716803659155, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 8e7e8feec9ad550408697fa70ab5f37f, type: 2}
+    hand: {x: -0.6404615, y: 0.7791048}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 30
+      y: 831
+      width: 99
+      height: 127
+    bodyPivot: {x: 0.50969696, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: 8850612613891392892, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: f2f07b5b5c4d4c249af034a8a2e30c77, type: 2}
+    hand: {x: -0.6552628, y: 0.83566064}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 200
+      y: 831
+      width: 106
+      height: 124
+    bodyPivot: {x: 0.4571698, y: 0}
+    cropBody: 1
+    flipVertical: 1
+    flipHorizontal: 1
+  - source: {fileID: 5969475094319506448, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 7d574fdd9fe96894db622fe7c69227c6, type: 2}
+    hand: {x: 0.6880065, y: 1.6232657}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 23
+      y: 527
+      width: 105
+      height: 123
+    bodyPivot: {x: 0.5472381, y: 0.016260162}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 8826931461398231108, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 5c5c2ca38b3cf964eb35246445567697, type: 2}
+    hand: {x: 0.6832192, y: 1.6091487}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 198
+      y: 527
+      width: 100
+      height: 123
+    bodyPivot: {x: 0.5046, y: 0.016260162}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 2852518962725845817, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 443194fe425daee4199cb389310cb1a1, type: 2}
+    hand: {x: 0.70539725, y: 1.6110096}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 348
+      y: 527
+      width: 120
+      height: 123
+    bodyPivot: {x: 0.56216663, y: 0.016260162}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -7309218071393636213, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 724b0ff464e415249b3923fd20d57f80, type: 2}
+    hand: {x: 0.68311197, y: 1.609844}
+    hidden: 0
+    sortingOffset: -1
+    bodyRect:
+      serializedVersion: 2
+      x: 518
+      y: 527
+      width: 113
+      height: 122
+    bodyPivot: {x: 0.579292, y: 0.016393442}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 129275491118138536, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: d1c01ab78deb6474bba826101d09ec4b, type: 2}
+    hand: {x: 0.057963114, y: 0.90410036}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 690
+      y: 364
+      width: 121
+      height: 126
+    bodyPivot: {x: 0.4996694, y: 0.015873017}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -2236495394416149838, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: cb99c85ecf5cd7546b6d3fd5d511fb9f, type: 2}
+    hand: {x: 0.0020132298, y: 0.8719869}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 854
+      y: 364
+      width: 116
+      height: 125
+    bodyPivot: {x: 0.55568963, y: 0.016}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: -2486746479589479505, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: 3c75d16374573b54a8985df0c17c8762, type: 2}
+    hand: {x: -0.009974968, y: 0.7831079}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 1023
+      y: 364
+      width: 120
+      height: 126
+    bodyPivot: {x: 0.5288333, y: 0.015873017}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  - source: {fileID: 6167086912595663939, guid: a93263a0e9be06641ba240639bbbd8c5, type: 3}
+    sprite: {fileID: 21300000, guid: b105f96477556284d947d53c3df138c1, type: 2}
+    hand: {x: -0.0035558562, y: 0.8612492}
+    hidden: 0
+    sortingOffset: 1
+    bodyRect:
+      serializedVersion: 2
+      x: 1194
+      y: 364
+      width: 119
+      height: 124
+    bodyPivot: {x: 0.49966386, y: 0.016129032}
+    cropBody: 1
+    flipVertical: 0
+    flipHorizontal: 0
+  maxStack: 1
+  useEffect: 0
+  restoreAmount: 50

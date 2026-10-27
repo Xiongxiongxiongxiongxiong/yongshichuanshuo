@@ -1,0 +1,2 @@
+Existing scene blocks changed: 1:2063867219, 4:2063867221
+Only player component list and child transform list were extended. All original colliders, rigidbodies, gameplay component data, animation references and other scene blocks match the pre-integration backup.

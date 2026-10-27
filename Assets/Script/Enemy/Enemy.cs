@@ -63,8 +63,9 @@ public class Enemy : MonoBehaviour
 
     private void OnEnable()
     {
+        if (patrolState == null) Awake();
         currentState = patrolState;
-        currentState.OnEnter(this);
+        currentState?.OnEnter(this);
     }
 
 
@@ -79,6 +80,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDead || currentState == null) return;
 
         faceDir = new Vector3(-transform.localScale.x, 0, 0);
 
@@ -88,6 +90,7 @@ public class Enemy : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (isDead || currentState == null) return;
         if (!isHurt& !isDead &!wait)
         {
             EnemyMove();
@@ -98,7 +101,7 @@ public class Enemy : MonoBehaviour
 
     private void OnDisable()
     {
-        currentState.OnExit();
+        currentState?.OnExit();
     }
 
     public virtual void EnemyMove()
@@ -182,9 +185,19 @@ public class Enemy : MonoBehaviour
 //死亡
   public void onDie()
   {
+      if (isDead) return;
+      StopAllCoroutines();
       gameObject.layer = 2;
+      rd.velocity = Vector2.zero;
+      animator.ResetTrigger("hurt");
+      animator.SetBool("walk", false);
+      animator.SetBool("run", false);
       animator.SetBool("dead",true);
       isDead = true;
+      animator.Play("Base Layer.BoarDead", 0, 0);
+      foreach (var attack in GetComponentsInChildren<Attack>(true)) attack.enabled = false;
+      // Keep the existing animation event, with a fallback if it is missed.
+      Destroy(gameObject, 0.75f);
   }
   //销毁
   public void DestroyAfterAnimation()

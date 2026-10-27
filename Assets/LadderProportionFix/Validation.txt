@@ -1,0 +1,22 @@
+SampleScene_9: 5 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_10: 5 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_11: 4 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_12: 4 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_13: 5 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_14: 4 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_15: 4 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_16: 5 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_17: 4 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+SampleScene_18: 4 tiled ladders saved; uniform scale, bounds and climb map unchanged.
+8: 4 verified
+9: 5 verified
+10: 5 verified
+11: 4 verified
+12: 4 verified
+13: 5 verified
+14: 4 verified
+15: 4 verified
+16: 5 verified
+17: 4 verified
+18: 4 verified
+Total=48

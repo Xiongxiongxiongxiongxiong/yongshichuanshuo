@@ -1,0 +1,1 @@
+PASS: ten items, five rarities, twenty independent transparent atlases, 1080 calibrated body bindings, 840 visible weapon sprites. Existing hand/crop/facing/sorting data preserved.

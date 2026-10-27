@@ -1,0 +1,12 @@
+Main town25 validation,2026-10-21
+PASS: native approved concept imported, separate detailed walkable foreground and dark background saved.
+PASS: solid floor at town spawn, four proportional tiled ladders, zero missing town scripts.
+PASS:17 non-null Addressable destinations8–24, including newly registered18.
+PASS: New Game enters town; player alive and standing at spawn; town checkpoint saved.
+PASS: inn rest restores damaged health to max and records checkpoint.
+PASS: map opens with17 destination buttons and pauses game time; closing restores controls/time.1280x720 UI screenshot visually inspected.
+PASS: round trips town→8/18/19/22→town with live player and timeScale1.
+PASS: checkpoint survives Play Mode restart; Continue from Menu returns to town.
+PASS: actual collider entry into river safety trigger returns player alive to town spawn.
+PASS: final Console check returned no errors/warnings.
+Prior PlayerPrefs checkpoint restored after testing. All source assets/scenes saved. No full manual traversal of every street/balcony or every destination claimed.

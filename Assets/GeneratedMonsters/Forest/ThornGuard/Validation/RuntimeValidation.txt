@@ -1,0 +1,17 @@
+ChargeWindup damage=5 armor=True
+RootWindup damage=5 armor=True
+AI=MeleeWindup,Melee,Recover,Patrol,Chase,ChargeWindup,Charge,RootWindup,Root playerDamage=106
+J 0 damage=10 flash=True bar=0.9090909
+J 1 damage=10 flash=True bar=0.9090909
+Root warning damage=0
+Root hit damage=12 slow=0.55
+Slow recovered=1
+Leave root warning avoids=True
+Slide started=True
+Slide root immunity=True
+Charge wall stun=True
+Death collision off=True
+Death removed=True
+Unity 2022.3.20f1c1 Play Mode; real J input through persistent and SceneLoader.
+Temporary test arena and damage sources were not saved. Original checkpoint restored.
+Known pre-existing dynamic GameUIFont texture error remains unrelated to this addition.

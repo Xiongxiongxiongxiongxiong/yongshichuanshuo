@@ -1,0 +1,6 @@
+Slide start=True, sprite=RedKnightSkill_17, texture=char_red_4
+Thrust start=True, sprite=RedKnight_01, texture=char_red_3
+Thrust start=True sample=RedKnightSkill_05
+Spin start=True sample=RedKnightSkill_23
+Climb sample=RedKnightSkill_30
+Valid ordinary animation references=73

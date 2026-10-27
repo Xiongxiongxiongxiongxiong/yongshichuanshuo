@@ -1,0 +1,44 @@
+RedtailScorpion AI=Basic/Chase,Basic/Windup,Basic/Attack,Basic/Recover,Basic/Patrol playerDamage=20
+RedtailScorpion J 0 damage=10 flash=True bar=True
+RedtailScorpion J 1 damage=10 flash=True bar=True
+RedtailScorpion death collider off=True
+Death final frame=True removed=True
+SandJawWorm AI=Basic/Windup,Basic/Attack,Basic/Recover,Basic/Idle playerDamage=12
+SandJawWorm J 0 damage=10 flash=True bar=True
+SandJawWorm J 1 damage=10 flash=True bar=True
+SandJawWorm death collider off=True
+Death final frame=True removed=True
+ThornballCactus AI=Basic/Windup,Basic/Attack,Basic/Recover,Basic/Idle playerDamage=7
+ThornballCactus J 0 damage=10 flash=True bar=True
+ThornballCactus J 1 damage=10 flash=True bar=True
+ThornballCactus death collider off=True
+Death final frame=True removed=True
+RustSkeleton AI=Basic/Chase,Basic/Windup,Basic/Attack,Basic/Recover,Basic/Patrol playerDamage=24
+RustSkeleton J 0 damage=10 flash=True bar=True
+RustSkeleton J 1 damage=10 flash=True bar=True
+RustSkeleton death collider off=True
+Death final frame=True removed=True
+SoulLanternWraith AI=Basic/Windup,Basic/Attack,Basic/Recover,Basic/Return,Basic/Idle playerDamage=9
+SoulLanternWraith J 0 damage=10 flash=True bar=True
+SoulLanternWraith J 1 damage=10 flash=True bar=True
+SoulLanternWraith death collider off=True
+Death final frame=True removed=True
+ChainAmbushBeast AI=Basic/Windup,Basic/Attack,Basic/Recover,Basic/Idle playerDamage=22
+ChainAmbushBeast J 0 damage=10 flash=True bar=True
+ChainAmbushBeast J 1 damage=10 flash=True bar=True
+ChainAmbushBeast death collider off=True
+Death final frame=True removed=True
+SandPincerGuard Main damaged=5 armor=True
+SandPincerGuard Secondary damaged=5 armor=True
+SandPincerGuard AI=Basic/Windup,Basic/Attack,Basic/Recover,Basic/Patrol,Main/Windup,Main/Attack,Main/Recover,Main/Patrol,Secondary/Windup,Secondary/Attack,Secondary/Recover,Secondary/Patrol playerDamage=28
+SandPincerGuard J 0 damage=10 flash=True bar=True
+SandPincerGuard J 1 damage=10 flash=True bar=True
+SandPincerGuard death collider off=True
+Death final frame=True removed=True
+SoulboundJailer Main damaged=5 armor=True
+SoulboundJailer Secondary damaged=5 armor=True
+SoulboundJailer AI=Basic/Windup,Basic/Attack,Basic/Recover,Basic/Patrol,Main/Windup,Main/Attack,Main/Recover,Main/Patrol,Secondary/Windup,Secondary/Attack,Secondary/Recover,Secondary/Patrol playerDamage=30
+SoulboundJailer J 0 damage=10 flash=True bar=True
+SoulboundJailer J 1 damage=10 flash=True bar=True
+SoulboundJailer death collider off=True
+Death final frame=True removed=True

@@ -1,0 +1,1084 @@
+fileFormatVersion: 2
+guid: a157fd58eaedeb44b8a55d6670ddc585
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MossTuskKing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1318
+        width: 256
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a40db3d18fce954f99b3d9ef9e56b4d
+      internalID: -1396559233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1324
+        width: 245
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3ba4d0587ff904ab7cc1e1933765b5
+      internalID: -513977150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1328
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b6b3d7838ecca4f9861cf9139cb960
+      internalID: 514060614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1312
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d47ef6a425df9e408562fe37090fbd3
+      internalID: 1592718011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1317
+        width: 503
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d00bfbf524748498b796b45ada1568
+      internalID: 241044224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_5
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1320
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67ecd5b039990d409e9a18fc2a8baa9
+      internalID: 824464605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_6
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1316
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88492acb87e594b429aa6ff40b765e4e
+      internalID: 1251070570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1147
+        width: 251
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -502, y: 0.5}
+        - {x: -502, y: 162.5}
+        - {x: -266, y: 162.5}
+        - {x: -266, y: 0.5}
+      - - {x: -434, y: 47.5}
+        - {x: -434, y: 52.5}
+        - {x: -428, y: 52.5}
+        - {x: -428, y: 47.5}
+      - - {x: -259, y: 0.5}
+        - {x: -259, y: 158.5}
+        - {x: 5, y: 156.5}
+        - {x: 4, y: 0.5}
+      - - {x: 14, y: -8.5}
+        - {x: 14, y: 155.5}
+        - {x: 247, y: 155.5}
+        - {x: 247, y: -8.5}
+      - - {x: 261, y: -3.5}
+        - {x: 261, y: 159.5}
+        - {x: 508, y: 159.5}
+        - {x: 508, y: -3.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d67229dd421e54aa4f2c564e058429
+      internalID: 790616078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1311
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49c635f20cbead4e8ca36dd0f8e955a
+      internalID: -1694555944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1312
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00650045d6935554da129b919f3e21c5
+      internalID: -705553235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_10
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1313
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baeccac86b7b08419ef4c9b96a20bec
+      internalID: -1806054291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_11
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1314
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4902fa03c36b5b1468f08a9ecca39155
+      internalID: 2077093258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 972
+        width: 253
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1635a1d1be804fd4caa3e348241a88b7
+      internalID: 669767864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 369
+        width: 263
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3055f41522876dd49bd877ada26a91b1
+      internalID: -87296846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 172
+        width: 215
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c603d8f3a26fc43841a7dbf40be90d
+      internalID: -1892946747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 360
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3703ac4dfccce419fa29428b71d9fe
+      internalID: -754811892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_16
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 165
+        width: 270
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbd6e4a4b1c5cb4ab4a5edc0f4ef8e6
+      internalID: 1889779690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_17
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 167
+        width: 235
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bad7a7a89593f0429d7e81a0e149325
+      internalID: -400298254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 243
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1844dec93ec3c044aa02b98ba3a575c
+      internalID: -1060568348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 164
+        width: 229
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d93cbaf09da46f4dad691a441ca8fa1
+      internalID: -1103486688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_20
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 178
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c829fa1ff7aaf1c43a72ab7eab4d79ab
+      internalID: -2039728018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 252
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47274d450a74fe94f9952948a1b3793d
+      internalID: 842906997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_22
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 261
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b6bb12354de4f4490ed8d86e4a618f
+      internalID: 1425983357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 159
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fcc33c2c82a5e4fab00654fef7b576
+      internalID: 1516505869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1153
+        width: 251
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd5f240c36505a429350e134e9600f3
+      internalID: -728092593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1150
+        width: 246
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9771d8f0bdf4f0044b02fc28ab0052d1
+      internalID: -1037476592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_26
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1152
+        width: 255
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9653a7ef1d316874db9f40daa2d9efcc
+      internalID: 1401100895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 972
+        width: 251
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb67806fb48d345b64d3debb0cee8f
+      internalID: -1059911627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_28
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 970
+        width: 262
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4677f2eeb6279924082dd9c080eba65b
+      internalID: -809665953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_29
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 970
+        width: 245
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769f03345d5a37d47aba92a660372f1a
+      internalID: 1497277691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 798
+        width: 260
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2066d476add1c22488e3875e222fc229
+      internalID: 965049482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_31
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 796
+        width: 246
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b4193b8748cf24582a10086f08eea0
+      internalID: 1998464765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_32
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 794
+        width: 257
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e769f3bfdf3ca4b8157b9404c0b2b1
+      internalID: -635632043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_33
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 794
+        width: 255
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11268250fa2d4344aaa5aa71ebbead6e
+      internalID: -2120235554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_34
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 604
+        width: 265
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b80e2b1cf689d43877d462b16a8c55
+      internalID: 610780847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_35
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 605
+        width: 232
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15216f8944a7d6145a549af541a9eb96
+      internalID: -2099488844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_36
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 601
+        width: 275
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a00b32e6317a149918921742ab83bf
+      internalID: 277376588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_37
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 600
+        width: 238
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8d75679377338478434389241eaaf8
+      internalID: 1159069770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_38
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 370
+        width: 242
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ee36c5a3afa5942b1ea61c2ed05023
+      internalID: 1909620160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_39
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 376
+        width: 262
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd337de64f9fcae42a52d46a52a72575
+      internalID: 1243786912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_40
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 372
+        width: 247
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67227b6a1a655b341bd5efff02aba323
+      internalID: -1787154342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MossTuskKing_41
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6b750f00aee2745a79dd0bc611e25b
+      internalID: 943226171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MossTuskKing_0: -1396559233
+      MossTuskKing_1: -513977150
+      MossTuskKing_10: -1806054291
+      MossTuskKing_11: 2077093258
+      MossTuskKing_12: 669767864
+      MossTuskKing_13: -87296846
+      MossTuskKing_14: -1892946747
+      MossTuskKing_15: -754811892
+      MossTuskKing_16: 1889779690
+      MossTuskKing_17: -400298254
+      MossTuskKing_18: -1060568348
+      MossTuskKing_19: -1103486688
+      MossTuskKing_2: 514060614
+      MossTuskKing_20: -2039728018
+      MossTuskKing_21: 842906997
+      MossTuskKing_22: 1425983357
+      MossTuskKing_23: 1516505869
+      MossTuskKing_24: -728092593
+      MossTuskKing_25: -1037476592
+      MossTuskKing_26: 1401100895
+      MossTuskKing_27: -1059911627
+      MossTuskKing_28: -809665953
+      MossTuskKing_29: 1497277691
+      MossTuskKing_3: 1592718011
+      MossTuskKing_30: 965049482
+      MossTuskKing_31: 1998464765
+      MossTuskKing_32: -635632043
+      MossTuskKing_33: -2120235554
+      MossTuskKing_34: 610780847
+      MossTuskKing_35: -2099488844
+      MossTuskKing_36: 277376588
+      MossTuskKing_37: 1159069770
+      MossTuskKing_38: 1909620160
+      MossTuskKing_39: 1243786912
+      MossTuskKing_4: 241044224
+      MossTuskKing_40: -1787154342
+      MossTuskKing_41: 943226171
+      MossTuskKing_5: 824464605
+      MossTuskKing_6: 1251070570
+      MossTuskKing_7: 790616078
+      MossTuskKing_8: -1694555944
+      MossTuskKing_9: -705553235
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

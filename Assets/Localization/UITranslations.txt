@@ -1,0 +1,206 @@
+开始冒险|Start Adventure
+继续旅程|Continue Journey
+设  置|Settings
+设置|Settings
+退出游戏|Quit Game
+返  回|Back
+分辨率|Resolution
+语言|Language
+立即生效，并自动保存|Changes apply immediately and are saved
+声音：开|Sound: On
+声音：关|Sound: Off
+全屏模式：开|Fullscreen: On
+全屏模式：关|Fullscreen: Off
+总音量|Master Volume
+音乐|Music
+音效|Sound Effects
+按 Enter 确认  ·  ↑↓ 选择|Enter to confirm  ·  ↑↓ to select
+冒险者公会 · 选择目的地|Adventurers' Guild · Choose a destination
+主城已记录为归返点，可随时使用右上角按钮返回。|Town checkpoint saved. Use the top-right button to return anytime.
+旅馆  [E] 休息、恢复生命并记录主城归返点|Inn [E] Rest, heal and save the town checkpoint
+冒险者公会  [E] 打开冒险地图|Adventurers' Guild [E] Open the adventure map
+暮光河畔镇  ·  主街 / 河岸 / 城墙均可探索|Twilight Riverside · Explore the streets, riverbank and ramparts
+已休息，生命恢复。主城归返点已记录。|Rested and healed. Town checkpoint saved.
+尚未获得可收纳物品|No stored items yet
+当前装备：剑与盾|Equipment: Sword and Shield
+宝箱中的武器强化会直接应用到角色。|Weapon upgrades from chests apply directly to your character.
+可在角色面板查看当前武器伤害。|View current weapon damage in the character panel.
+旅途暂歇，锋芒未熄。|Rest a moment. Your journey awaits.
+按 Esc 或下方按钮继续冒险|Press Esc or the button below to resume
+滑铲消耗 50 体力|Slide costs 50 stamina
+突刺消耗 30 体力 · 冷却 3 秒|Thrust costs 30 stamina · 3s cooldown
+旋风斩消耗 40 体力 · 冷却 5 秒|Whirlwind costs 40 stamina · 5s cooldown
+剑与盾 · 红披风|Sword and Shield · Crimson Cloak
+武器伤害|Weapon Damage
+生命|Health
+体力|Stamina
+赤焰骑士|Ember Knight
+暂 停|Paused
+行 囊|Inventory
+角色|Character
+背包|Inventory
+普攻|Attack
+滑铲|Slide
+突刺|Thrust
+旋风斩|Whirlwind
+继续冒险|Resume
+冒险地图|Adventure Map
+返回主城|Return to Town
+地图|Map
+关闭|Close
+返回|Back
+暮光河畔镇|Twilight Riverside
+暮光河畔|Twilight Riverside
+冒险之境|Adventure Realm
+矿洞|Mine
+幽暗矿井|Shadow Mine
+水晶矿洞|Crystal Mine
+废弃矿井|Abandoned Mine
+深层矿脉|Deep Veins
+矿脉深处|Deep Veins
+矿坑深处|Deep Mine
+翡翠密林|Emerald Forest
+远古密林|Ancient Forest
+幽光沼泽|Glowing Marsh
+迷雾森林|Misty Forest
+幽暗森林|Shadow Forest
+月影森林|Moonshadow Forest
+荒野洞穴|Wilderness Cave
+荒野石窟|Wild Grotto
+幽潭洞穴|Deep Pool Cave
+苔岩洞穴|Mossrock Cave
+荧光洞穴|Glowing Cave
+绿洲小径|Oasis Trail
+风蚀峡谷|Wind Canyon
+失落沙城|Lost Sand City
+铁链监牢|Ironchain Prison
+地下水道|Underground Waterworks
+暗影王陵|Shadow Royal Crypt
+铁链地牢|Ironchain Dungeon
+幽影王陵|Shadow Royal Crypt
+古林守卫 · 苔角王|Ancient Guardian · Moss Tusk King
+幽谷菌主 · 孢冠长老|Fungal Lord · Sporecrown Elder
+矿脉吞噬者 · 晶背掘岩兽|Vein Devourer · Crystalback
+幽潭洞主 · 苍脊岩螈|Deep Pool Lord · Azure Salamander
+蚀月蛾后 · 绒翼巢母|Eclipse Queen · Moonveil Matriarch
+矿核过载|Core Overload
+幽脊共鸣|Azure Resonance
+月纹苏醒|Moonmark Awakening
+狂暴阶段|Enraged Phase
+盛放阶段|Bloom Phase
+狂暴|Enraged
+盛放|Bloom
+幽潭洞主正在苏醒|The Deep Pool Lord awakens
+围身扫尾：跳跃或远离身侧|Tail sweep: jump or keep away
+跃岩扑击：离开金色落点|Rock leap: leave the golden landing zone
+长舌突刺：跳跃或滑铲躲避|Tongue thrust: jump or slide to evade
+幽雾吐息：登上岩台或离开前方|Mist breath: climb a ledge or move behind
+岩螈喘息！趁机攻击|The salamander is exhausted! Attack now
+苍脊岩螈倒下了|The Azure Salamander has fallen
+矿脉吞噬者正在苏醒|The Vein Devourer awakens
+掘岩爪击：后退或滑铲躲避|Rock claws: retreat or slide to evade
+钻地突袭：离开锁定的矿纹圈|Burrow ambush: leave the marked circle
+矿震碎岩：跳跃或登上岩台|Rock shockwave: jump or climb a ledge
+矿晶震落：离开金色落点|Crystal rain: leave the golden landing zones
+矿甲松动！趁机攻击|Its armor is loose! Attack now
+晶背掘岩兽倒下了|Crystalback has fallen
+绒翼巢母正在苏醒|The Moonveil Matriarch awakens
+振翼扫击：后退、滑铲或绕后|Wing sweep: retreat, slide or move behind
+月影俯冲：离开金色落点|Moonshadow dive: leave the golden landing zone
+鳞粉散射：寻找弹道间隙|Scale dust: find gaps between projectiles
+落丝缚地：离开金圈或登上岩台|Silk snare: leave the golden circle or climb a ledge
+蛾后落地喘息！趁机攻击|The queen is exhausted! Attack now
+绒翼巢母倒下了|The Moonveil Matriarch has fallen
+古林守卫已苏醒|The Ancient Guardian awakens
+连续冲锋：跳跃或滑铲躲避|Repeated charge: jump or slide to evade
+獠牙冲锋：跳跃或滑铲躲避|Tusk charge: jump or slide to evade
+裂地重踏：跳跃躲避冲击波|Earth stomp: jump over the shockwave
+苔岩震落：离开金色落点|Mossrock rain: leave the golden landing zones
+撞墙眩晕！趁机攻击|Stunned by the wall! Attack now
+古林守卫倒下了|The Ancient Guardian has fallen
+幽谷菌主已苏醒|The Fungal Lord awakens
+藤根突刺：离开金色标记|Root thrust: leave the golden markers
+双重孢子：寻找弹道间隙|Double spores: find gaps between projectiles
+孢子散射：跳跃或滑铲接近|Spore scatter: jump or slide closer
+菌主后撤：跳跃拉开距离|Fungal retreat: jump and keep your distance
+菌冠跃砸：离开金色落点|Crown slam: leave the golden landing zone
+根臂横扫：后退或滑铲躲避|Root sweep: retreat or slide to evade
+菌冠低垂！趁机攻击|The crown is lowered! Attack now
+幽谷菌主倒下了|The Fungal Lord has fallen
+挑战完成|Challenge Complete
+关卡完成|Level Complete
+挑战成功|Challenge Complete
+重新挑战|Retry
+再试一次|Try Again
+返回主菜单|Main Menu
+返回菜单|Main Menu
+通关|Complete
+完成|Complete
+胜利|Victory
+休息|Rest
+旅馆|Inn
+公会|Guild
+前往|Travel to
+提示|Hint
+琥珀矿井|Amber Mine
+蓝晶矿脉|Azure Crystal Vein
+废弃工坊|Abandoned Workshop
+紫晶遗迹|Amethyst Ruins
+溪流古道|Riverside Trail
+古树村落|Ancient Tree Village
+月光遗迹|Moonlit Ruins
+苔溪洞窟|Mossbrook Cavern
+红岩峡谷|Redrock Canyon
+霜雾山洞|Frostmist Cave
+深层矿道|Deep Mine Tunnels
+绿洲古道|Oasis Trail
+森林|Forest
+山洞|Cave
+沙漠|Desert
+地牢|Dungeon
+古林守卫的领地|Ancient Guardian's Domain
+幽谷菌主的领地|Fungal Lord's Domain
+废弃矿井 · 矿脉巢穴|Abandoned Mine · Vein Lair
+天然幽潭 · 岩螈巢穴|Deep Pool · Salamander Lair
+月丝幽洞 · 蛾后巢穴|Moonlit Silk Cavern · Queen's Lair
+进入首领关卡|Enter Boss Arena
+你已抵达森林终点|You have reached the end of the forest
+森林之旅|Forest Journey
+# Legacy Menu scene only; the current title screen uses its separate branded artwork.
+新的游戏|New Game
+继续游戏|Continue Game
+勇士传说|Ember Walker
+# Backpack and warehouse
+背 包|BACKPACK
+仓 库|WAREHOUSE
+仓库|Warehouse
+物品详情|Item Details
+物品|Items
+背包是空的|Your backpack is empty
+仓库是空的|Your warehouse is empty
+未选择物品|No item selected
+点击左侧物品查看详情|Select an item to view its details
+数量：|Quantity: 
+使用|Use
+丢弃|Discard
+存入仓库  →|Deposit  →
+←  取回背包|←  Withdraw
+仓库管理员   [E] 对话|Warehouse Keeper   [E] Talk
+仓库管理员|Warehouse Keeper
+旅途中的物品，就放心交给我保管吧。|Your belongings are safe with me.
+你可以随时存入或取回。|Deposit or withdraw them whenever you like.
+打开仓库|Open Warehouse
+下次再来|Goodbye
+请先选择物品|Select an item first
+已存入仓库|Item deposited
+已取回背包|Item withdrawn
+仓库空间不足|Not enough warehouse space
+背包空间不足|Not enough backpack space
+该物品暂不可使用|This item cannot be used
+生命值已满|Health is full
+体力已满|Stamina is full
+已使用 |Used 
+已丢弃 1 个物品|Discarded one item
+此物品的资料尚未配置，物品数据已保留。|Item details are not configured. Your item is preserved.
+存档读取失败，暂时无法修改物品|Save could not be read. Items cannot be changed.
+物品存档读取失败，原存档已保留|Item save could not be read. Original save preserved.

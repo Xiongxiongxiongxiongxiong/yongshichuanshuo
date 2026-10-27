@@ -1,0 +1,62 @@
+[
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenAttack01.anim",
+    "Hash": "15648939E04DF2E9E230CD9BCE203682ADB67AF23FBF1DA8754BFAD22AFDFE6A"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenAttack02.anim",
+    "Hash": "D969C956A7D4EE692AC2EB4EF59741BFB6E7CBBFDEF10FF1B7D250BFB48ED3BD"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenAttack03.anim",
+    "Hash": "6902895827AF4DD10234D77A628F8D57FF89839628563494402978312A1030BC"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenCrouch.anim",
+    "Hash": "5C3512940AD22B4F13A8DE8CDA3E8CBC2F3F419376A9E213365E3FC1C1915973"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenDead.anim",
+    "Hash": "A1DDE28D0F142621E8355EB2D390B55FDC2B64F44D885BC8A8AD9543B05D683C"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenHurt.anim",
+    "Hash": "00C9ED88A38028B5A6A553CCAA7DC1F33F5A497BDFB527F20639E6C2DB2CE83C"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenHurt2.anim",
+    "Hash": "05317404360448B332A91F6E39001E41B1045A6E84ABF2395BF686A6817BD881"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenIde.anim",
+    "Hash": "4976D640D7BB92AF978315446BF858C72320CCD65C9321BEE8AEA8FF08F4E4F5"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenJump.anim",
+    "Hash": "3D47DE9AD8AFD098988438B4C92B9E68C36CC98BB31B7E9AE64C2D8203B6398E"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenJump02.anim",
+    "Hash": "34442C90B1FC5A485EDBA73FBB0A613908C8B64480065431B1E7579381A2005D"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenJump03.anim",
+    "Hash": "371FA9C8F46DD0D12EF1F1A2412B3F80D3419DC36946496616C4CC93C0098A40"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenJump04.anim",
+    "Hash": "96B185541919AFF2DDF5D46CF6E01B9762CD821088E94F540A05E9900C7549A9"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenJump05.anim",
+    "Hash": "10BCDF1900F53FD9BF934DDC6D54882C9DAFCBE5081E7857661DEE950ED3320C"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenRun.anim",
+    "Hash": "8149C67F571769C59DBA51786CEEBF119D9F2E8ED7AC8B5B9C0FF271F0002072"
+  },
+  {
+    "Path": "D:\\yongshi\\yongshichuanshuo\\Assets\\Animations\\Player\\GreenWalk.anim",
+    "Hash": "983EE1AA87A9BE00BF84F1483FAE02511AAAB45F23F3A28369026DADE19F430A"
+  }
+]

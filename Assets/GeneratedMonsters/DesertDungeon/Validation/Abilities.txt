@@ -1,0 +1,41 @@
+RedtailScorpion Basic warning damage=0
+RedtailScorpion Basic trial=0 totalDamage=10
+SandJawWorm Basic warning damage=0
+SandJawWorm Basic trial=1 totalDamage=12
+ThornballCactus Basic warning damage=0
+ThornballCactus Basic trial=2 totalDamage=7
+RustSkeleton Basic warning damage=0
+RustSkeleton Basic trial=3 totalDamage=12
+SoulLanternWraith Basic warning damage=0
+SoulLanternWraith Basic trial=4 totalDamage=9
+ChainAmbushBeast Basic warning damage=0
+ChainAmbushBeast Basic trial=5 totalDamage=11
+SandPincerGuard Main warning damage=0
+SandPincerGuard Main trial=6 totalDamage=18
+SandPincerGuard Secondary warning damage=0
+SandPincerGuard Secondary trial=7 totalDamage=10
+SoulboundJailer Main warning damage=0
+SoulboundJailer Main trial=8 totalDamage=22
+SoulboundJailer Main warning damage=0
+SoulboundJailer Main trial=9 totalDamage=12
+SoulboundJailer Secondary warning damage=0
+SoulboundJailer Secondary trial=10 totalDamage=8
+Chain pull distance=1 actual=0.8398438 inputEnabled=True
+Actual jump feet=3.808393 wave avoided=True
+Thorn slide started=True
+Thorn slide damage=0
+SoulFire slide started=True
+SoulFire slide damage=0
+SandFan slide started=True
+SandFan slide damage=0
+SoulWave slide started=True
+SoulWave slide damage=0
+SoulChain slide started=True
+SoulChain slide damage=0
+Free pull distance=1 actual=0.9998474
+Pull stops before wall=True distance=0.4843115
+Pull stops before ledge=True x=362.74
+Charge wall stun=True
+Charge cliff safety=True
+Projectile expires at range=True
+Projectile stops at wall=True

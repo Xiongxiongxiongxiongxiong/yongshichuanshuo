@@ -1,0 +1,3 @@
+Weaponless mappings validated: 108 / 108
+B keyboard switched to new sword and did not open bag in first runtime test.
+Restart B check: selected=True, sprite=RedKnight_04_Weaponless, bagOpen=False

@@ -1,0 +1,7 @@
+PASS Idle side=0 frames=6 grip travel=0.2000 local units, error=0.000000
+PASS Idle side=1 frames=6 grip travel=0.2000 local units, error=0.000000
+PASS Body offset and rotation carry weapon; error=0
+PASS Run 30fps all 8 frames, final=0, max frame hold=0.0667s
+PASS Run 60fps all 8 frames, final=0, max frame hold=0.0667s
+PASS Run 120fps all 8 frames, final=0, max frame hold=0.0667s
+PASS Step phase responds to travel speed: slow=2, fast=4

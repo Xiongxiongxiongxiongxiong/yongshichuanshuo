@@ -1,0 +1,37 @@
+Observed authored weapon frames=35
+Frame synchronization mismatches=0
+Frost_RedKnight_03
+Frost_RedKnight_14
+Frost_RedKnight_15
+Frost_RedKnight_16
+Frost_RedKnight_17
+Frost_RedKnight_18
+Frost_RedKnight_19
+Frost_RedKnight_00
+Frost_RedKnight_01
+Frost_RedKnight_02
+Frost_RedKnight_06
+Frost_RedKnight_07
+Frost_RedKnight_08
+Frost_RedKnight_09
+Frost_RedKnight_10
+Frost_RedKnight_11
+Frost_RedKnight_20
+Frost_RedKnight_04
+Frost_RedKnightSkill_10
+Frost_RedKnightSkill_11
+Frost_RedKnightSkill_12
+Frost_RedKnightSkill_13
+Frost_RedKnightSkill_14
+Frost_RedKnightSkill_15
+Frost_RedKnightSkill_16
+Frost_RedKnightSkill_17
+Frost_RedKnight_05
+Frost_RedKnightSkill_04
+Frost_RedKnightSkill_05
+Frost_RedKnightSkill_06
+Frost_RedKnightSkill_07
+Frost_RedKnightSkill_22
+Frost_RedKnightSkill_23
+Frost_RedKnightSkill_24
+Frost_RedKnightSkill_25

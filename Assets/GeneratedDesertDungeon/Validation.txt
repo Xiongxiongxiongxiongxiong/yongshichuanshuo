@@ -1,0 +1,6 @@
+19: PASS; solid spawn floor, 4 proportional ladders, 3 chests, completion/retry/Addressables links valid, native foreground shader supported, no missing scripts.
+20: PASS; solid spawn floor, 3 proportional ladders, 3 chests, completion/retry/Addressables links valid, native foreground shader supported, no missing scripts.
+21: PASS; solid spawn floor, 4 proportional ladders, 3 chests, completion/retry/Addressables links valid, native foreground shader supported, no missing scripts.
+22: PASS; solid spawn floor, 4 proportional ladders, 3 chests, completion/retry/Addressables links valid, native foreground shader supported, no missing scripts.
+23: PASS; solid spawn floor, 3 proportional ladders, 3 chests, completion/retry/Addressables links valid, native foreground shader supported, no missing scripts.
+24: PASS; solid spawn floor, 4 proportional ladders, 3 chests, completion/retry/Addressables links valid, native foreground shader supported, no missing scripts.

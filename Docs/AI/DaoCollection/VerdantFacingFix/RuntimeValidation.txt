@@ -1,0 +1,1 @@
+PASS: 216 actual runtime body-frame/weapon/facing/visibility/grip/sorting checks; 1 equip/save/reload cases; deposit, withdraw, re-equip and discard ownership. Original inventory restored in finally.
